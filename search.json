@@ -1,0 +1,678 @@
+[
+  {
+    "objectID": "T7/T7-self-study.html",
+    "href": "T7/T7-self-study.html",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Computabilitat i indecidibilitat\n\nMaria Serna, Carme Àlvarez, Rafel Cases, Antoni Lozano\nCapítol 4\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 4.2 Undecidability\nChapter 5. Reducibility",
+    "crumbs": [
+      "Info curso",
+      "**7** - Indecibilidad",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T7/T7-self-study.html#llibres",
+    "href": "T7/T7-self-study.html#llibres",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Computabilitat i indecidibilitat\n\nMaria Serna, Carme Àlvarez, Rafel Cases, Antoni Lozano\nCapítol 4\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 4.2 Undecidability\nChapter 5. Reducibility",
+    "crumbs": [
+      "Info curso",
+      "**7** - Indecibilidad",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T7/T7-self-study.html#videos",
+    "href": "T7/T7-self-study.html#videos",
+    "title": "Auto-aprendizaje",
+    "section": "Videos",
+    "text": "Videos\nMirar los siguentes videos.",
+    "crumbs": [
+      "Info curso",
+      "**7** - Indecibilidad",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T6/T6-self-study.html",
+    "href": "T6/T6-self-study.html",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Computabilitat i indecidibilitat\n\nMaria Serna, Carme Àlvarez, Rafel Cases, Antoni Lozano\nCapítol 1\nCapítol 2\nCapítol 3\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nChapter 3. The Church-Turing Thesis\nSection 4.1 Decidable Languages",
+    "crumbs": [
+      "Info curso",
+      "**6** - Máquinas de Turing",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T6/T6-self-study.html#llibres",
+    "href": "T6/T6-self-study.html#llibres",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Computabilitat i indecidibilitat\n\nMaria Serna, Carme Àlvarez, Rafel Cases, Antoni Lozano\nCapítol 1\nCapítol 2\nCapítol 3\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nChapter 3. The Church-Turing Thesis\nSection 4.1 Decidable Languages",
+    "crumbs": [
+      "Info curso",
+      "**6** - Máquinas de Turing",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T6/T6-self-study.html#videos",
+    "href": "T6/T6-self-study.html#videos",
+    "title": "Auto-aprendizaje",
+    "section": "Videos",
+    "text": "Videos\nMirar los siguentes videos.",
+    "crumbs": [
+      "Info curso",
+      "**6** - Máquinas de Turing",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T1/rewriting-rules.html",
+    "href": "T1/rewriting-rules.html",
+    "title": "Reglas de re-escritura",
+    "section": "",
+    "text": "Una regla de re-escritura (o de re-emplazo) es un par ordenado de palabras u, v que denotamos como \nu\\to v\\ .\n Decimos que esta es la regla que nos permite transformar u en v.\n\nEjemplo 1 La regla de re-escritura ab\\to bba es la regla que nos permite transformar ab en bba.\n\nLa aplicación de una regla de reescritura u\\to v sobre una palabra w consiste en encontrar una ocurrencia de u en w y re-emplazarla por v. Lo denotamos de este modo: \nw_1\\underline{u}w_2 \\to_{u\\to v} w_1\\underline{v}w_2\n resaltando así qué regla se está usando y en que parte de las palabras.\n\nEjemplo 2 La aplicación de la regla ab\\to bba es posible sobre la palabra aabab en dos posiciones distintas porqué aabab contiene dos ocurrencias de ab. Por ejemplo, podemos denotar la aplicación de la regla ab\\to bba en la primera ocurrencia de ab de esta manera \na\\underline{ab}ab\\to_{ab\\to bba} a\\underline{bba}ab\\ .\n\n\nSea R es un conjunto de reglas de re-escritura.\nCon w\\to_R w' denotamos que la palabra w se transforma en w' aplicando una de las reglas de R.\nCon w\\to_R^* w' denotamos que la palabra w se transforma en la palabra w' aplicando cero o más pasos de re-emplazo con reglas de R.\nCon w\\to_R^+ w' denotamos que la palabra w se transforma en la palabra w' aplicando uno o más pasos de re-emplazo con reglas de R.\nFinalmente, con w\\to_R^i w' denotamos que la palabra w se transforma en la palabra w' aplicando i pasos de re-emplazo con reglas de R.",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Reglas de re-escritura"
+    ]
+  },
+  {
+    "objectID": "T1/T1-self-study.html",
+    "href": "T1/T1-self-study.html",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 1\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nChapter 0. Introduction",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T1/T1-self-study.html#llibres",
+    "href": "T1/T1-self-study.html#llibres",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 1\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nChapter 0. Introduction",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "exercises/T5-exercises.html",
+    "href": "exercises/T5-exercises.html",
+    "title": "Ejercicios para la evaluación continua",
+    "section": "",
+    "text": "Leyenda\n\n\n\n = el ejercicio ha sido asignado a un/una estudiante/a y será resuelto en clase. Para ver la asignación y la fecha de entrega consulta el racó.\n = el ejercicio debería ser fácil.\n = el ejercicio podría resultar más difícil de otros."
+  },
+  {
+    "objectID": "exercises/T5-exercises.html#no-regularitat",
+    "href": "exercises/T5-exercises.html#no-regularitat",
+    "title": "Ejercicios para la evaluación continua",
+    "section": "No regularitat",
+    "text": "No regularitat\n\nEjercicio 1 Demostreu la no-regularitat dels següents llenguatges:\n\n\\{a^nb^n\\ |\\  n\\in\\dot{2}\\}.\n\\{a^nb^n\\ |\\  n\\in\\dot{3}\\}.\n\\{a^nb^m\\ |\\  n\\not=m\\}.\n\\{a^{2n}b^n\\ |\\  n\\in\\dot{2}\\}.\n\\{w\\in\\{a,b\\}^*\\ |\\  \\;|w|_a=|w|_b\\}.\n \\{a^nb^m\\ |\\  n\\leq m\\}.\n\\{a^nb^m\\ |\\  n\\geq m\\}.\n\\{c^ma^nb^n\\ |\\  (n,m\\geq 0)\\}.\n\\{a,b\\}^*\\cup\\{c^ma^nb^n\\ |\\  (m\\geq 1)\\wedge(n\\geq 0)\\}.\n\\{w\\in\\{a,b\\}^*\\ |\\  w=w^R\\}.\n\\{ww\\in\\{a,b\\}^*\\}\n \\{a^{n^2}\\ |\\  n\\geq 0\\}.\n\\{a^{2^n}\\ |\\  n\\geq 0\\}.\n\\{a^n\\ |\\  n\\text{ apareix a la successió de Fibonacci}\\}.\n \\{a^n\\ |\\  n\\text{ és primer}\\}.\n\\{a^n\\ |\\  n\\text{ és parell o primer}\\}.\n \\{abab^2ab^3\\ldots ab^n\\ |\\  n\\geq 0\\}.\n\\{w_1\\#w_2\\ |\\  w_1,w_2\\in\\{0,1\\}^*\\wedge (|w_1|&lt;|w_2|\\vee |w_1|\\in\\dot{2})\\}.\n\\{u\\#v\\ |\\  u,v\\in\\{a,b\\}^*\\wedge v\\text{ és submot de }u\\}.\n\\{w\\in(a+b+c)^*\\ |\\  |w|_a\\geq |w|_b\\vee |w|_b\\geq|w|_c\\}.\nQualsevol subconjunt infinit del llenguatge \\{a^nb^n\\}.\n\\{w\\in\\{a,b\\}^*\\ |\\  (|w|\\in\\dot{3}\\Rightarrow |w|_a=|w|_b)\\}.\n \\{w_1\\#w_2\\ |\\  w_1,w_2\\in\\{0,1\\}^*\\wedge \\mathtt{valor}_2(w_1)=\\mathtt{valor}_2(w_2)\\}.\n\\{w_1\\#w_2\\ |\\  w_1,w_2\\in\\{0,1\\}^*\\wedge \\mathtt{valor}_2(w_1)=1+\\mathtt{valor}_2(w_2)\\}.\n\\{w_1\\#w_2\\#w_3\\ |\\  w_1,w_2,w_3\\in\\{0,1\\}^*\\wedge \\mathtt{valor}_2(w_1)+\\mathtt{valor}_2(w_2)=\\mathtt{valor}_2(w_3)\\}.\n\\{xy\\in\\{a,b\\}^*\\mid |x|_a=2|y|_b\\}\n\n\n\nEjercicio 2 Considerem el llenguatge L_k=\\{w\\in(0+1)^*\\ |\\  \\mathtt{valor}_2(w)\\leq k\\}. Quins dels següents llenguatges són regulars per a qualsevol k:\n\n L_k.\n \\bigcup_{k\\geq 1}L_k.\n \\{w\\#w\\ |\\  w\\in L_k\\}.\n\\{1w\\#1w\\ |\\  1w\\in L_k\\}.\n\\{1w\\#1w\\ |\\  w\\in L_k\\}.\n\\{w\\#w\\ |\\  w\\in L_k\\;\\wedge\\;|w|\\leq\\mathtt{valor}_2(w)\\}.\n\\{w\\#w\\ |\\  1w\\in L_k\\}.\n\\{w_1\\#w_2\\ |\\  w_1,w_2\\in L_k\\wedge \\mathtt{valor}_2(w_1)=\\mathtt{valor}_2(w_2)\\}.\n\\{w_1\\#w_2\\ |\\  \\exists k:(w_1,w_2\\in L_k\\;\\wedge\\;\\mathtt{valor}_2(w_1)=\\mathtt{valor}_2(w_2))\\}.\n\n\n\nEjercicio 3 Quins dels següents llenguatges podem assegurar que són no-regulars sabent que A i B són no-regulars i que \\sigma és un morfisme.\n\n \\bar{A}.\n A\\cup B.\n A\\cap B.\nA\\cdot B.\nA^R.\nA^*.\nS(A) (recordeu la definició de shiftar un llenguatge dels exercicis del primer tema).\n\\sigma(A).\n\\sigma^{-1}(A).\n\n\n\nEjercicio 4 Determineu quin llenguatge genera cadascuna de les següents CFG’s, i justifiqueu si aquest llenguatge és regular o no.\n\n S \\to AB\\ |\\  CD\\\\ A \\to 0A0\\ |\\  0\\\\ B \\to 1B1\\ |\\  \\lambda\\\\ C \\to 0C0\\ |\\  \\lambda\\\\ D \\to 1D1\\ |\\  \\lambda\nS \\to aA\\ |\\  bB\\ |\\  \\lambda\\\\ A \\to Sa\\ |\\  Sb\\\\ B \\to Sb\nS \\to AB\\\\ A \\to 0A0\\ |\\  1\\\\ B \\to 1B1\\ |\\  0\n S \\to 0S0\\ |\\  0S1\\ |\\  \\lambda\nS \\to AB\\\\ A \\to 0A0\\ |\\  0A1\\ |\\  \\lambda\\\\ B \\to 0B\\ |\\  1B\\ |\\  \\lambda\n S \\to A\\ |\\  B\\\\ A \\to 0S0\\ |\\  1S1\\ |\\  \\lambda\\\\ B \\to 0S1\\ |\\  1S0\\ |\\  \\lambda\nS \\to A\\ |\\  B\\\\ A \\to 0A0\\ |\\  1A1\\ |\\  \\lambda\\\\ B \\to 0B1\\ |\\  1B0\\ |\\  \\lambda\nS \\to aSa\\ |\\  bSb\\ |\\  X\\\\ X \\to aXb\\ |\\  bXa\\ |\\  a\\ |\\  b\\ |\\  \\lambda\nS \\to WXW'\\\\ X \\to aX\\ |\\  bX\\ |\\  \\lambda\\\\ W \\to aW\\ |\\  bW\\ |\\  \\lambda\\\\ W' \\to W'a\\ |\\  W'b\\ |\\  \\lambda"
+  },
+  {
+    "objectID": "exercises/T5-exercises.html#autómatas-amb-pila-i-jerarquía-de-chomsky",
+    "href": "exercises/T5-exercises.html#autómatas-amb-pila-i-jerarquía-de-chomsky",
+    "title": "Ejercicios para la evaluación continua",
+    "section": "Autómatas amb pila i jerarquía de Chomsky",
+    "text": "Autómatas amb pila i jerarquía de Chomsky\n\n\nEjercicio 5 Muestra un ejemplo de lenguaje inambiguo que no sea DCFL.\n\n\nEjercicio 6 Muestra un ejemplo de DCFL que no sea regular.\n\n\nEjercicio 7 Muestra que los lenguajes inambiguos i los DCFL no son cerrados por morfismo directo.\n\n\nEjercicio 8 Muestra que los lenguajes inambiguos i los DCFL no son cerrados por intersección.\n\n\nEjercicio 9 Muestra que los DCFL no son cerrados por reverso.\n\n\nEjercicio 10 Muestra que los lenguajes inambiguos i los DCFL no son cerrados por concatenación.\n\n\nEjercicio 11 Muestra que los lenguajes inambiguos i los DCFL no son cerrados por estrella.\n\n\nEjercicio 12 Sigui A regular, B CFL, C DCFL i \\sigma un morfisme. Quins dels següents llenguatges podem assegurar que són regulars, quins podem assegurar que són DCFL, i quins podem assegurar que són CFL?\nRaoneu les respostes, i doneu contraexemples quan sigui necessari.\n\n\\sigma^{-1}(B)\\cap A.\n\\overline{\\sigma^{-1}(C)}.\nC^R.\nS(C) (recordeu la definició de shiftar un llenguatge donada en els problemes del primer tema).\nS(A). \n(\\overline{A\\cap C}\\cup B).\n(\\sigma(B)\\cap B)C.\n(\\overline{A}-\\sigma(B)\\cap\\overline{C}).\n(\\sigma^{-1}(\\sigma(B))\\cap B) C.\n\\overline{(\\overline{\\sigma(A)}\\cap C)}\\sigma(B\\cap A).\n\\sigma(\\sigma^{-1}(B)\\cap A)\\sigma^{-1}(C).\n\n\n\nEjercicio 13 Propón un algoritmo de coste razonable para saber, dado un DFA A i una CFG G, si se cumple {\\mathcal L}(G)\\subseteq {\\mathcal L}(A).\n\n\nEjercicio 14 Propón un algoritmo de coste razonable para saber, dado un DFA A i una CFG G, si G genera infinitas palabras no aceptadas por A.\n\n\nEjercicio 15 Propón un algoritmo de coste razonable para saber, dado un DFA A i una CFG G, si G genera alguna palabra de tamaño par no aceptada por A."
+  },
+  {
+    "objectID": "exercises/T6-exercises.html",
+    "href": "exercises/T6-exercises.html",
+    "title": "Ejercicios para la evaluación continua",
+    "section": "",
+    "text": "Leyenda\n\n\n\n = el ejercicio ha sido asignado a un/una estudiante/a y será resuelto en clase. Para ver la asignación y la fecha de entrega consulta el racó.\n = el ejercicio debería ser fácil.\n = el ejercicio podría resultar más difícil de otros.\n\n\n\nEjercicio 1 Escrivid TM sencillas para los siguientes lenguajes:\n\n \\{a^nb^nc^n\\;|\\;n\\geq 0\\}.\n\\{w_1\\#w_2\\;|\\;w_1,w_2\\in\\{0,1\\}^*\\wedge\\mathtt{valor}_2(w_1)=\\mathtt{valor}_2(w_2)+1\\}.\n\\{ww\\;|\\;w\\in\\{0,1\\}^*\\}.\n\\{0^{2^n}\\;|\\;n\\geq 0\\}\n\n\n\nEjercicio 2 Escrivid 2-TM (o 3-TM o 4-TM en caso de necesidad) sencillas para los siguientes lenguajes:\n\n \\{a^nb^nc^n\\;|\\;n\\geq 0\\}.\n\\{w_1\\#w_2\\;|\\;w_1,w_2\\in\\{0,1\\}^*\\wedge\\mathtt{valor} _2(w_(a)=\\mathtt{valor} _2(w_2)+1\\}.\n\\{ww\\;|\\;w\\in\\{0,1\\}^*\\}.\n\\{0^{2^n}\\;|\\;n\\geq 0\\}\n\\{0^{n^2}\\;|\\;n\\geq 0\\}\n\n\n\nEjercicio 3 Argumenta a grandes rasgos que las máquinas de Turing no-deterministas no son más expresivas que las máquinas de Turing deterministas.\n\n\nEjercicio 4 Considera el modelo de máquina que definimos a grandes rasgos así: una variante de los autómatas con pila donde, en vez de una pila, tenemos dos pilas, las transiciones dependen del contenido de la cima de ambas pilas, i en la acción de cada transición se puede o bien borrar el elemento de la cima o bien añadir nuevos elementos, todo ello en ambas pilas. Justifica a grandes rasgos que este modelo puede simular una máquina de Turing, i que, por tanto, es Turing-completo.\n\n\nEjercicio 5 Considera el modelo de máquina que definimos a grandes rasgos así: una variante de los autómatas con pila donde, en vez de una pila, tenemos una cola, las transiciones dependen del contenido del inicio de la cola, i en la acción de cada transición se puede borrar el elemento del inicio, i también añadir nuevos elementos al final de la cola. Justifica a grandes rasgos que este modelo puede simular una máquina de Turing, i que, por tanto, es Turing-completo.\n\n\nEjercicio 6 Demuestra que los lenguajes decidibles son cerrados por las siguientes operaciones:\n\n Intersección.\n Complementario.\n Resta (de conjuntos).\n Reverso.\n Concatenación.\nEstrella.\n Morfismo inverso.\nShiftado.\n\n\n\nEjercicio 7  Demuestra que los lenguajes decidibles no son cerrados por morfismo directo.\n\n\nEjercicio 8 Demuestra que los lenguajes semidecidibles son cerrados por las siguientes operaciones:\n\n Intersección.\n Concatenación.\nReverso.\n Estrella.\n Morfismo directo.\n Morfismo inverso.\nShiftado.\n\n\n\nEjercicio 9 Demuestra que los siguientes conjuntos son semidecidibles:\n\n \\{\\langle x,y\\rangle\\;|\\;M_x(y)\\downarrow\\}.\n \\{x\\;|\\;\\exists y:M_x(y)\\downarrow\\}.\n \\{\\langle u,v,R\\rangle\\;|\\;u\\to_R^*v\\}.\n \\{G\\in\\mathtt{CFG}\\;|\\;G\\text{ ambigua}\\}.\n \\{\\langle G_1,G_2\\rangle\\;|\\;G_1,G_2\\in \\mathtt{CFG}\\;\\wedge\\;{\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)\\not=\\emptyset\\}.\n\n\n\nEjercicio 10  Sea B un conjunto semidecidible i sea C un conjunto que cumple C=\\{x\\;|\\;\\exists y: \\langle x,y\\rangle\\in B\\}. Demuestra que C es semidecidible.\n\n\nEjercicio 11  Sea C un conjunto infinito. Demuestra que C es decidible si i solo si existe una función computable, total, inyectiva i creciente cuya imagen es C.\n\n\nEjercicio 12  Sea C un conjunto infinito. Demuestra que C es semidecidible si i solo si existe una función computable total e inyectiva cuya imagen es C.\n\n\nEjercicio 13  Sea f una función computable e inyectiva. Es f^{-1} computable e inyectiva?\n\n\nEjercicio 14  Sea f:\\mathbb{N}\\to\\mathbb{N} una función estríctamente decreciente. Podemos asegurar que es computable?\n\n\nEjercicio 15  Sean A i B dos conjuntos tales que (A\\cup B)-(A\\cap B) es decidible i A es decidible. Eso implica que B es decidible?\n\n\nEjercicio 16 Sean A i B dos conjuntos tales que (A\\cup B)-(A\\cap B) es decidible i A es semidecidible. Eso implica que B es semidecidible?",
+    "crumbs": [
+      "Info curso",
+      "**6** - Máquinas de Turing",
+      "Ejercicios para la evaluación continua"
+    ]
+  },
+  {
+    "objectID": "exercises/T3-exercises.html",
+    "href": "exercises/T3-exercises.html",
+    "title": "Ejercicios para la evaluación continua",
+    "section": "",
+    "text": "Leyenda\n\n\n\n = el ejercicio ha sido asignado a un/una estudiante/a y será resuelto en clase. Para ver la asignación y la fecha de entrega consulta el racó.\n = el ejercicio debería ser fácil.\n = el ejercicio podría resultar más difícil de otros.\n\n\n\nEjercicio 1 Doneu una gramàtica inambígua per a generar expressions amb operadors binaris de suma, resta, producte, divisió, i també admetent parentització explícita, de manera que l’arbre sintàctic generat es correspongui a la precedéncia habitual que donem als operadors.\n\n\n\nEjercicio 2 Justifica l’ambigüitat o no ambigüitat de les següents CFG’s:\n\n S \\to (S)\\ |\\ SS\\ |\\ \nS \\to (S)S\\ |\\ \n S \\to aSb\\ |\\ B\\\\ B \\to bAa\\ |\\ bCb\\ |\\ \\lambda\\\\ A \\to aAbA\\ |\\ bAaA\\ |\\ \\lambda\\\\ C \\to Aaa\\ |\\ aAa\\ |\\ aaA\nS \\to aU_1\\ |\\ aS\\ |\\ bZ_1\\ |\\ bS\\\\ Z_1 \\to aU_2\\ |\\ bF\\\\ U_1 \\to bU_2\\\\ U_2 \\to bF\\ |\\ b\\\\ F \\to aF\\ |\\ bF\\ |\\ a\\ |\\ b\n S \\to AaBA\\ |\\ ABaA\\ |\\ ACA\\ |\\ AbabA\\\\ B \\to bb\\\\ C \\to bB\\\\ A \\to aA\\ |\\ bA\\ |\\ \\lambda\nS \\to aU_1\\ |\\ aS\\ |\\ bZ_1\\ |\\ bS\\\\ Z_1 \\to aU_2\\ |\\ bZ_2\\\\ U_1 \\to bU_2\\\\ U_2 \\to bF\\\\ Z_2 \\to aF\\ |\\ bF\\\\ F \\to aF\\ |\\ bF\\ |\\ \\lambda\nS \\to Z_1a\\ |\\ Z_2b\\\\ Z_1 \\to Z_1a\\ |\\ U_1b\\\\ Z_2 \\to U_2a\\ |\\ Z_3b\\\\ Z_3 \\to Fa\\ |\\ U_2\\\\ U_1 \\to U_2\\ |\\ Fba\\\\ U_2 \\to Fb\\\\ F \\to Fa\\ |\\ Fb\\ |\\ \\lambda\n\n\n\nEjercicio 3  Demostreu que la gramàtica reunió G_1\\cup G_2 de dues gramàtiques inambígües G_1, G_2 sí podria ser ambígua.\n\n\nEjercicio 4  Demostreu que la gramàtica concatenació G_1\\cdot G_2 de dues gramàtiques inambígües G_1, G_2 sí podria ser ambígua.\n\n\nEjercicio 5  Demostreu que la gramàtica estrella G^* d’una gramàtica inambígua G sí podria ser ambígua.\n\n\nEjercicio 6  Demostreu que la gramàtica imatge \\sigma(G) d’una gramàtica inambígua G per un morfisme \\sigma sí podria ser ambígua.\n\n\nEjercicio 7  Demostreu que la gramàtica revessada G^R d’una gramàtica inambígua G és també inambígua.\n\n\n\nEjercicio 8  Expliqueu el procediment d’eliminació de produccions nul.les i analitzeu-ne el temps de computació. Feu un exemple de la seva aplicació.\n\n\nEjercicio 9  Expliqueu el procediment d’eliminació de produccions unàries i analitzeu-ne el temps de computació. Feu un exemple de la seva aplicació.\n\n\nEjercicio 10  Explicqueu el procediment d’eliminació de símbols inútils i analitze-ne el temps de computació. Feu un exemple de la seva aplicació.\n\n\nEjercicio 11 Depureu (elimineu les \\lambda-produccions, produccions unàries i símbols inútils) les CFGs següents:\n\n S \\to SS \\ |\\  (S) \\ |\\  \\lambda\n S \\to (S)S\\ |\\ \\lambda\nS \\to AA\\\\ A \\to AA\\ |\\ \\lambda\n S \\to A\\\\ A \\to B\\\\ B \\to c\nS \\to AB\\\\ A \\to a\\ |\\ \\lambda\\\\ B \\to b\\ |\\ \\lambda\n S \\to AB\\\\ A \\to aAb\\ |\\ \\lambda\\\\ B \\to bBc\\ |\\ \\lambda\n S \\to BC\\ |\\ \\lambda\\\\ A \\to aA\\ |\\ \\lambda\\\\ B \\to bB\\\\ C \\to c\n S \\to X\\ |\\ Y\\\\ X \\to Xc\\ |\\ A\\\\ A \\to aAb\\ |\\ \\lambda\\\\ Y \\to aY\\ |\\ B\\\\ B \\to bBc\\ |\\ \\lambda\nS \\to A\\ |\\ B\\ |\\ C\\\\ A \\to SaSbS\\ |\\ \\lambda\\\\ B \\to SbSaS\\ |\\ \\lambda\\\\ C \\to Cc\\ |\\ \\lambda\n\n\n\n\nEjercicio 12  Expliqueu el procediment de passar d’una CFG G a una CFG G' equivalent en Forma Normal de Chomsky (CNF) i analitzeu-ne el temps de computació.\n\n\nEjercicio 13 Demostreu que totes les transformacions de gramàtiques exposades ens els exercicis anteriors preserven la no ambigüitat de la gramàtica original.\n\n\nEjercicio 14  Quin és el cost de l’algorisme CKY (o conegut també per CYK) per a decidir si una CFG G donada genera un mot w donat? Es a dir, descriviu i analitzeu el cost en temps de l’agorisme CYK tal que donada una CFG G i donat un mot w, decideix si w \\in L(G).\nQuin és el cost temporal si se suposa que G és fixa i que per tant l’ entrada només conté w?\n\n\nEjercicio 15  Sigui n el nombre de passos de derivació necessaris per a generar una certa palabra w amb una certa CFG G en forma normal de Chomsky. Podem establir alguna relació entre n i |w|?\n\n\nEjercicio 16 Justifiqueu la veracitat o falsetat de les següents afirmacions per a CFGs G,G_1,G_2,G_3.\n\n(G^R)^R=G.\n(G_1\\cup G_2)^R=G_1^R\\cup G_2^R.\n(G^R)^*=(G^*)^R.\n(G_1\\cup G_2)G=(G_1G)\\cup(G_2G).\n\\sigma(G_1\\cup G_2)=\\sigma(G_1)\\cup\\sigma(G_2).\nG_1(G_2G_3)=(G_1G_2)G_3.\n(G_1G_2)^R=G_2^RG_1^R.\n\n\n\nEjercicio 17  Proposeu un algorisme de cost raonable per a decidir si una CFG d’ entrada genera algun mot.\n\n\nEjercicio 18  Proposeu un algorisme de cost raonable per a decidir si una CFG d’ entrada genera infinits mots.\n\n\nEjercicio 19  Proposeu un algorisme de cost raonable per a decidir si una CFG d’ entrada genera algun mot de longitud parell.\n\n\nEjercicio 20  Proposeu un algorisme de cost raonable per a decidir si una CFG d’ entrada genera infinits mots de londitud parell.\n\n\nEjercicio 21 Proposeu un algorisme de cost raonable per a calcular, donats una CFG G i un natural n d’entrada, quants arbres de derivació diferents de mots de mida n genera G.\n\n\nEjercicio 22  Sigui L un llenguatge incontextual infinit. Demostreu que hi ha una CFG G tal que \\mathcal{L}(G)=L i totes les variables de G generen un llenguatge infinit.",
+    "crumbs": [
+      "Info curso",
+      "**3** - Gramáticas libre de contexto",
+      "Ejercicios para la evaluación continua"
+    ]
+  },
+  {
+    "objectID": "exercises/T4-exercises.html",
+    "href": "exercises/T4-exercises.html",
+    "title": "Ejercicios para la evaluación continua",
+    "section": "",
+    "text": "Leyenda\n\n\n\n = el ejercicio ha sido asignado a un/una estudiante/a y será resuelto en clase. Para ver la asignación y la fecha de entrega consulta el racó.\n = el ejercicio debería ser fácil.\n = el ejercicio podría resultar más difícil de otros.\n\n\n\nEjercicio 1 Trobeu expressions regulars que representin els següents llenguatges transformant un DFA en una expressió regular segons el mètode basat en el lema d’Arden.\n\n Mots sobre \\{a,b\\} amb un nombre parell de a’s.\nMots sobre \\{a,b\\} amb o bé un nombre parell de a’s, o bé un nombre parell de b’s.\nMots sobre \\{a,b\\} acabats en ababa.\nMots sobre \\{a,b\\} que no contenen el submot aba.\nMots sobre \\{a,b,c\\} tals que, entre cada dues a’s hi ha almenys una b.\n Mots sobre \\{0,1\\} amb almenys dos 0’s consecutius.\n\n\n\nEjercicio 2  Donada una expressió regular, com construirieu una altra expressió regular, de manera senzilla, que generi el llenguatge revers de la primera?\n\n\nEjercicio 3  Donada una expressió regular r i un morfisme \\sigma, com construirieu una altra expressió regular, de manera senzilla, que generi \\sigma({\\mathcal L}(r))?\n\n\nEjercicio 4 Demostreu les equivalències següents entre expressions regulars:\n\na^* (b + ca^*)^*= (a + b^*c)^*b^*\n (bb + ba + a)^*baa^* = a^* b (aa^*b + ba^*b)^*aa^*\n( \\Lambda + b) a^* (b + bba^*)^* = b^* (a + bb +bbb)^* b^*.\n\n\n\nEjercicio 5 Donades dues expressions regulars r_1 i r_2, com decidirieu:\n\n {\\mathcal L}(r_1)={\\mathcal L}(r_2).\n{\\mathcal L}(r_1)\\subseteq{\\mathcal L}(r_2).\n {\\mathcal L}(r_1)=\\emptyset.\n|{\\mathcal L}(r_1)|=\\infty.\n|{\\mathcal L}(r_1)\\cap{\\mathcal L}(r_2)|=0.\n|{\\mathcal L}(r_1)\\cap{\\mathcal L}(r_2)|=\\infty.\n\n\n\nEjercicio 6 (Lema d’Arden (bis))  Demostra que BA^* és solució de l’equació X=XA+B, que tota solució d’aquesta equació conté BA^*, i que en el cas de que A no contingui \\lambda, aleshores BA^* n’és l’única solució. \n\n\nEjercicio 7  Aprofitant el resultat de l’exercici anterior (Lema d’Arden (bis)), obteniu una expressió regular pel complementari de les paraules que representen un múltiple de 3 (és a dir, \\overline{\\{w\\in\\{0,1\\}^*\\;|\\; \\mathtt{valor}_2(w)\\in\\dot{3}\\}}). Per a això, escriu l’autòmat mínim per aquest llenguatge, crea una variable X_q per a cada estat q, i crea equacions (amb la incògnita a l’esquerra com en el Lema d’ Arden (bis)) amb la idea de que la solució de cada X_q sigui el llenguatge dels mots que ens porten des de l’ estat inicial a l’estat q.\n\n\nEjercicio 8 Utilitza el mètode de l’exercici anterior per obtenir expressions regulars dels llenguatges següents aplicant el Lema d’ Arden (bis). Compara-les amb expressions regulars que s’obtenen aplicant el Lema d’Arden tal i com s’explica en els vídeos.\n\n Mots sobre \\{a,b\\} amb un nombre parell de a’s.\nMots sobre \\{a,b\\} amb o bé un nombre parell de a’s, o bé un nombre parell de b’s.\nMots sobre \\{a,b\\} acabats en ababa.\nMots sobre \\{a,b\\} que no contenen el submot aba.\nMots sobre \\{a,b,c\\} tals que, entre cada dues a’s hi ha almenys una b.\n Mots sobre \\{0,1\\} amb almenys dos 0’s consecutius.",
+    "crumbs": [
+      "Info curso",
+      "**4** - Expressiones regulares",
+      "Ejercicios para la evaluación continua"
+    ]
+  },
+  {
+    "objectID": "videos/index.html",
+    "href": "videos/index.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Tema 1Tema 2Tema 3Tema 4Tema 5.1Tema 5.2Tema 6Tema 7Tema 8"
+  },
+  {
+    "objectID": "T3/T3-self-study.html",
+    "href": "T3/T3-self-study.html",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 2\nCapítol 3\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 2.1 Context-Free Grammars",
+    "crumbs": [
+      "Info curso",
+      "**3** - Gramáticas libre de contexto",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T3/T3-self-study.html#llibres",
+    "href": "T3/T3-self-study.html#llibres",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 2\nCapítol 3\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 2.1 Context-Free Grammars",
+    "crumbs": [
+      "Info curso",
+      "**3** - Gramáticas libre de contexto",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T3/T3-self-study.html#videos",
+    "href": "T3/T3-self-study.html#videos",
+    "title": "Auto-aprendizaje",
+    "section": "Videos",
+    "text": "Videos\nMirar los siguentes videos.",
+    "crumbs": [
+      "Info curso",
+      "**3** - Gramáticas libre de contexto",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T2/T2-self-study.html",
+    "href": "T2/T2-self-study.html",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 4\nCapítol 5\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 1.1 Finite Automata\nSection 1.2 Nondeterminism.\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nNo conté una secció explícita per a la Minimització d’Autòmats, només Problems 1.51 i 1.52.",
+    "crumbs": [
+      "Info curso",
+      "**2** - Autómatas finitos",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T2/T2-self-study.html#llibres",
+    "href": "T2/T2-self-study.html#llibres",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 4\nCapítol 5\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 1.1 Finite Automata\nSection 1.2 Nondeterminism.\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nNo conté una secció explícita per a la Minimització d’Autòmats, només Problems 1.51 i 1.52.",
+    "crumbs": [
+      "Info curso",
+      "**2** - Autómatas finitos",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T2/T2-self-study.html#videos",
+    "href": "T2/T2-self-study.html#videos",
+    "title": "Auto-aprendizaje",
+    "section": "Videos",
+    "text": "Videos\nMirar los siguentes videos.",
+    "crumbs": [
+      "Info curso",
+      "**2** - Autómatas finitos",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T2/T2-self-study.html#material-complimentari",
+    "href": "T2/T2-self-study.html#material-complimentari",
+    "title": "Auto-aprendizaje",
+    "section": "Material Complimentari",
+    "text": "Material Complimentari\n\n\n\n\n\nExemples de construcció d’autòmats finits\n\nLluís Márquez, Enrique Romero",
+    "crumbs": [
+      "Info curso",
+      "**2** - Autómatas finitos",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "references/sipser.html",
+    "href": "references/sipser.html",
+    "title": "TC",
+    "section": "",
+    "text": "Introduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\n\n\nTema 1 — Chapter 0. Introduction\nTema 2 — Section 1.1 Finite Automata i Section 1.2 Nondeterminism. No conté una secció explícita per a la Minimització d’Autòmats, només Problems 1.51 i 1.52.\nTema 3 — Section 2.1 Context-Free Grammars\nTema 4 — Section 1.3 Regular Expressions\nTema 5.1 — Section 1.4 Non-regular Languages\nTema 5.2 — Section 2.2 Pushdown Automata\nTema 6 — Chapter 3. The Church-Turing Thesis and Section 4.1 Decidable Languages\nTema 7 — Section 4.2 Undecidability and Chapter 5. Reducibility\nTema 8 — Section 5.2 A Simple Undecidable Problem and Section 6.2 Decidability of Logical Theories"
+  },
+  {
+    "objectID": "references/marquez-romero.html",
+    "href": "references/marquez-romero.html",
+    "title": "TC",
+    "section": "",
+    "text": "Exemples de construcció d’autòmats finits\n\nLluís Márquez, Enrique Romero"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introducción",
+    "section": "",
+    "text": "Advertencia\n\n\n\nEste apartado será disponible más cerca del comienzo del curso.",
+    "crumbs": [
+      "Info curso",
+      "*Introducción*"
+    ]
+  },
+  {
+    "objectID": "course_info/metodologia.html",
+    "href": "course_info/metodologia.html",
+    "title": "TC",
+    "section": "",
+    "text": "La principal característica de la metodologia docent és l’auto-aprenentatge que es basa en la utilització del material docent per conèixer els fonaments tèorics de l’assignatura així com en la resolució de problemes a la pissarra que consoliden aquests coneixements teòrics.\nEl professor introdueix els fonaments tèorics bàsics de cada tema i soluciona alguns problemes. Els estudiants aprenen la teoria durant el seu temps de treball personal mitjançant l’estudi dels temes indicats pel professor de la bibliografia o dels vídeos i d’altres materials complementaris com apunts, llibres i llistes de problemes resolts, tots ells lliurement accessibles a través de la web.\nDurant les hores de problemes, els estudiants surten a la pissarra a explicar solucions a problemes que se’ls hi han assignat amb anterioritat. El professor intervé per corregir una solució, matitzar un argument, o posar émfasi en aquells aspectes que considera rellevants i que no han quedat del tot clars en l’explicació de l’alumne. També pren nota de cada presentació per tal de tenir-la en compte en l’avaluació de l’assignatura.\nDurant les hores de laboratori, els estudiants miren de resoldre problemes davant de la màquina que són avaluats automàticament. El professor està present per tal d’atendre els dubtes que els alumnes li puguin plantejar. Els estudiants poden aprofitar aquestes classes per preparar els problemes que se’ls hi han assignat amb anterioritat, però també per estudiar el material teòric si no ho han fet abans pel seu compte, i per preguntar dubtes sobre la teoria."
+  },
+  {
+    "objectID": "course_info/contacts.html",
+    "href": "course_info/contacts.html",
+    "title": "TC",
+    "section": "",
+    "text": "La profesora responsable del curso es Carme Àlvarez Faura (correo electrónico). Para preguntas administrativas, por favor, preguntar a ella directamente.\nMi correo electrónico para TC es ilario.bonacina+TC@upc.edu. El último día posible para hacer preguntas por correo electrónico es 5 dias antes del los examenes. Para consultas presenciales, también podéis encontrarme en el despacho 223, edificio \\Omega (con cita previa por email)."
+  },
+  {
+    "objectID": "T5_2/T5_2-self-study.html",
+    "href": "T5_2/T5_2-self-study.html",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 8\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 2.2 Pushdown Automata",
+    "crumbs": [
+      "Info curso",
+      "**5.2** - Pushdown automata",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T5_2/T5_2-self-study.html#llibres",
+    "href": "T5_2/T5_2-self-study.html#llibres",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 8\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 2.2 Pushdown Automata",
+    "crumbs": [
+      "Info curso",
+      "**5.2** - Pushdown automata",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T5_2/T5_2-self-study.html#videos",
+    "href": "T5_2/T5_2-self-study.html#videos",
+    "title": "Auto-aprendizaje",
+    "section": "Videos",
+    "text": "Videos\nMirar los siguentes videos.",
+    "crumbs": [
+      "Info curso",
+      "**5.2** - Pushdown automata",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "course_info/evaluation.html",
+    "href": "course_info/evaluation.html",
+    "title": "TC",
+    "section": "",
+    "text": "Evaluación continua (nota comulativa e de todas las presentaciones: entre 0 y 2)\n\nPara cada uno de los 7 primeros temas del curso, cada estudiante tiene asignado aleatoriamente un ejercicio para resolver y que presentará a la pizarra.\n\n\nL’avaluació de les competències transversals G7.3 i G9.3 la realitza cada professor individualment per a cada alumne del seu grup basant-se en les presentacions públiques de l’avaluació continuada. L’avaluació de les competències no afecta a l’avaluació de l’assignatura.\n\nExamen Parcial 1 (nota p_1: entre 0 y 8)\n\nTBD\nTemas 1–3\nproblemas para resolver utilizando el jutge online RACSO\n\nExamen Parcial 2 (nota p_2: entre 0 y 8)\n\nTBD\nTemas 4–8\nproblemas para resolver utilizando el jutge online RACSO y parte escrita\n\nExamen Final (nota f: entre 0 y 10)\n\nTBD\nTemas 1–8 Examen escrito\n\n\nHay dos maneras de aprobar este curso: sin presentarse al examen final o presentandose al examen final. La nota en los dos casos se calcula de manera distinta.\nSin presentarse al examen final la nota final es \nc =\\frac{p_1}{2}+\\frac{p_2}{2}+e\\ .\n\nPresentandose al examen final la nota final es\n\n\\max\\left(f,\\ \\frac{f}{2}+\\frac{c}{2}\\right)\\ ."
+  },
+  {
+    "objectID": "course_info/announcements.html",
+    "href": "course_info/announcements.html",
+    "title": "TC",
+    "section": "",
+    "text": "Esta sección nunca contendrá anuncios. Es solo un recordatorio de que para verlos, deberías mirar el racó.\nIn particular, todas las asignaciones de los problemas para la evaluación continua se harán en el racó."
+  },
+  {
+    "objectID": "course_info/calendar.html",
+    "href": "course_info/calendar.html",
+    "title": "TC",
+    "section": "",
+    "text": "Advertencia\n\n\n\nAquesta secció està subjecta a canvis.\n\n\n\n\nSemana 1 \nSesión 1.1 (teoria) — Presentación del curso y Tema 1 (Teoria de Lenguajes)\nSesión 1.2 (teoria y laboratorio) — DFAs (1h teoria y 1h RACSO)\nAsignación A1 — problemas sobre el Tema 1 (Teoria de Lenguajes)\nSemana 2 \nSesión 2.1 (problemas) — Asignación A1, presentaciones de los estudiantes\nSesión 2.2 (laboratorio) — DFAs\nAsignación A2 — problemas sobre el Tema 2 (Autómata finitos)\nSemana 3 \nSesión 3.1 (problemas) — Asignación A2, presentaciones de los estudiantes\nSesión 3.2 (laboratorio) — DFAs\nSemana 4 \nSesión 4.1 (problemas) — Asignación A2, presentaciones de los estudiantes\nSesión 4.2 (laboratorio) — CFGs\nAsignación A3 — problemas sobre el Tema 3 (gramaticas incontextuales)\nSemana 5 \nSesión 5.1 (problemas) — Asignación A3, presentaciones de los estudiantes\nSesión 5.2 (laboratorio) — CFGs\nSemana 6 \nSesión 6.1 (problemas) — Asignación A3, presentaciones de los estudiantes\nSesión 6.2 (laboratorio) — Operaciones regulares\nSemana 7 \nSesión 7 — Examen Parcial 1 TBD\n\n\nSemana 8 \nSesión 8.1 (teoria) — Expressiones regulares y no regularidad\nSesión 8.2 (laboratorio) — Operaciones regulares y PDAs\nAsignación A4 — problemas sobre el Tema 4 (Expressiones regulares)\nSemana 9 \nSesión 9.1 (problemas) — Asignación A4, presentaciones de los estudiantes\nSesión 9.2 (laboratorio) — PDAs\nAsignación A5 —problemas sobre el Tema 5.1 (No regularidad)\nSemana 10 \nSesión 10.1 (problemas) — Asignación A5, presentaciones de los estudiantes\nSesión 10.2 (teoria) — Tesi de Church-Turing. Decidibilitat (teoria)\nSemana 11 \nSesión 11.1 (teoria) — TM, Decidibilitat, Semidecidibilitat, Computabilitat (teoria)\nSesión 11.2 (teoria) — Decidibilitat vs indecidibilitat (teoria)\nAsignación A6 —problemas sobre el Tema 6 (Màquines de Turing. Decidibilitat, semidecidibilitat, computabilitat) y Tema 7 (Indecidibilitat, no semidecidibilitat, no computabilitat)\nSemana 12 \nSesión 12.1 (teoria y problemas) — Decidibilitat vs Indecidibilitat. Teorema De Rice. Asignación A6, presentaciones de los estudiantes\nSesión 12.2 (laboratorio) — Reduciones a K\nSemana 13 \nSesión 13.1 (problemas) — Asignación A6, presentaciones de los estudiantes Sesión 13.2 (laboratorio) — Reduciones a WP\nSemana 14 \nSesión 14.1 (problemas) — Reduccions que no es poden implementar amb el RACSO\nSesión 14.2 (laboratorio) — Reduciones a CFG\nSemana 15 \nSesión 15.1 — Examen Parcial 2 TBD\nSesión 15.2 — Examen Final TBD"
+  },
+  {
+    "objectID": "references/cases-marquez.html",
+    "href": "references/cases-marquez.html",
+    "title": "TC",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nTema 1 — Capítol 1\nTema 2 — Capítol 4 i Capítol 5\nTema 3 — Capítol 2 i Capítol 3\nTema 4 — Capítol 6 (des de la secció 6.1 fins la secció 6.4.)\nTema 5.1 — Capítol 7.1\nTema 5.2 — Capítol 8"
+  },
+  {
+    "objectID": "references/index.html",
+    "href": "references/index.html",
+    "title": "Referencias",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nTema 1 — Capítol 1\nTema 2 — Capítol 4 i Capítol 5\nTema 3 — Capítol 2 i Capítol 3\nTema 4 — Capítol 6 (des de la secció 6.1 fins la secció 6.4.)\nTema 5.1 — Capítol 7.1\nTema 5.2 — Capítol 8\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\n\n\nTema 1 — Chapter 0. Introduction\nTema 2 — Section 1.1 Finite Automata i Section 1.2 Nondeterminism. No conté una secció explícita per a la Minimització d’Autòmats, només Problems 1.51 i 1.52.\nTema 3 — Section 2.1 Context-Free Grammars\nTema 4 — Section 1.3 Regular Expressions\nTema 5.1 — Section 1.4 Non-regular Languages\nTema 5.2 — Section 2.2 Pushdown Automata\nTema 6 — Chapter 3. The Church-Turing Thesis and Section 4.1 Decidable Languages\nTema 7 — Section 4.2 Undecidability and Chapter 5. Reducibility\nTema 8 — Section 5.2 A Simple Undecidable Problem and Section 6.2 Decidability of Logical Theories\n\n\n\n\n\n\n\nTeoria de la computació – Computabilitat i indecidibilitat\n\nMaria Serna, Carme Àlvarez, Rafel Cases, Antoni Lozano\nTema 6 — Capítol 1, Capítol 2 i Capítol 3\nTema 7 — Capítol 4\nTema 8 — Capítol 5"
+  },
+  {
+    "objectID": "references/index.html#llibres",
+    "href": "references/index.html#llibres",
+    "title": "Referencias",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nTema 1 — Capítol 1\nTema 2 — Capítol 4 i Capítol 5\nTema 3 — Capítol 2 i Capítol 3\nTema 4 — Capítol 6 (des de la secció 6.1 fins la secció 6.4.)\nTema 5.1 — Capítol 7.1\nTema 5.2 — Capítol 8\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\n\n\nTema 1 — Chapter 0. Introduction\nTema 2 — Section 1.1 Finite Automata i Section 1.2 Nondeterminism. No conté una secció explícita per a la Minimització d’Autòmats, només Problems 1.51 i 1.52.\nTema 3 — Section 2.1 Context-Free Grammars\nTema 4 — Section 1.3 Regular Expressions\nTema 5.1 — Section 1.4 Non-regular Languages\nTema 5.2 — Section 2.2 Pushdown Automata\nTema 6 — Chapter 3. The Church-Turing Thesis and Section 4.1 Decidable Languages\nTema 7 — Section 4.2 Undecidability and Chapter 5. Reducibility\nTema 8 — Section 5.2 A Simple Undecidable Problem and Section 6.2 Decidability of Logical Theories\n\n\n\n\n\n\n\nTeoria de la computació – Computabilitat i indecidibilitat\n\nMaria Serna, Carme Àlvarez, Rafel Cases, Antoni Lozano\nTema 6 — Capítol 1, Capítol 2 i Capítol 3\nTema 7 — Capítol 4\nTema 8 — Capítol 5"
+  },
+  {
+    "objectID": "references/index.html#material-complementari",
+    "href": "references/index.html#material-complementari",
+    "title": "Referencias",
+    "section": "Material complementari",
+    "text": "Material complementari\n\n\n\n\n\nExemples de construcció d’autòmats finits\n\nLluís Márquez, Enrique Romero"
+  },
+  {
+    "objectID": "references/serna-alvarez-cases-lozano.html",
+    "href": "references/serna-alvarez-cases-lozano.html",
+    "title": "TC",
+    "section": "",
+    "text": "Teoria de la computació – Computabilitat i indecidibilitat\n\nMaria Serna, Carme Àlvarez, Rafel Cases, Antoni Lozano\nTema 6 — Capítol 1, Capítol 2 i Capítol 3\nTema 7 — Capítol 4\nTema 8 — Capítol 5"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Teoría de la computación",
+    "section": "",
+    "text": "Bienvenidos a Teoría de la computación (alias TC)!\nSoy Ilario Bonacina y si eres un estudiante de los grupos 21P y 21L, entonces soy uno de tus profesores para este cuatrimestre. Esta es la página web que utilizaré como apoyo para los problemas/clases de laboratorio de TC.\n\n\n\n\n\n\n Contactos\n\n\n\n\n\nLa profesora responsable del curso es Carme Àlvarez Faura (correo electrónico). Para preguntas administrativas, por favor, preguntar a ella directamente.\nMi correo electrónico para TC es ilario.bonacina+TC@upc.edu. El último día posible para hacer preguntas por correo electrónico es 5 dias antes del los examenes. Para consultas presenciales, también podéis encontrarme en el despacho 223, edificio \\Omega (con cita previa por email).\n\n\n\n\n\n\n\n\n\n Metodologia docente\n\n\n\n\n\nLa principal característica de la metodologia docent és l’auto-aprenentatge que es basa en la utilització del material docent per conèixer els fonaments tèorics de l’assignatura així com en la resolució de problemes a la pissarra que consoliden aquests coneixements teòrics.\nEl professor introdueix els fonaments tèorics bàsics de cada tema i soluciona alguns problemes. Els estudiants aprenen la teoria durant el seu temps de treball personal mitjançant l’estudi dels temes indicats pel professor de la bibliografia o dels vídeos i d’altres materials complementaris com apunts, llibres i llistes de problemes resolts, tots ells lliurement accessibles a través de la web.\nDurant les hores de problemes, els estudiants surten a la pissarra a explicar solucions a problemes que se’ls hi han assignat amb anterioritat. El professor intervé per corregir una solució, matitzar un argument, o posar émfasi en aquells aspectes que considera rellevants i que no han quedat del tot clars en l’explicació de l’alumne. També pren nota de cada presentació per tal de tenir-la en compte en l’avaluació de l’assignatura.\nDurant les hores de laboratori, els estudiants miren de resoldre problemes davant de la màquina que són avaluats automàticament. El professor està present per tal d’atendre els dubtes que els alumnes li puguin plantejar. Els estudiants poden aprofitar aquestes classes per preparar els problemes que se’ls hi han assignat amb anterioritat, però també per estudiar el material teòric si no ho han fet abans pel seu compte, i per preguntar dubtes sobre la teoria.\n\n\n\n\n\n\n\n\n\n Referencias\n\n\n\n\n\n\n\n\n\n\n\nTeoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nTema 1 — Capítol 1\nTema 2 — Capítol 4 i Capítol 5\nTema 3 — Capítol 2 i Capítol 3\nTema 4 — Capítol 6 (des de la secció 6.1 fins la secció 6.4.)\nTema 5.1 — Capítol 7.1\nTema 5.2 — Capítol 8\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\n\n\nTema 1 — Chapter 0. Introduction\nTema 2 — Section 1.1 Finite Automata i Section 1.2 Nondeterminism. No conté una secció explícita per a la Minimització d’Autòmats, només Problems 1.51 i 1.52.\nTema 3 — Section 2.1 Context-Free Grammars\nTema 4 — Section 1.3 Regular Expressions\nTema 5.1 — Section 1.4 Non-regular Languages\nTema 5.2 — Section 2.2 Pushdown Automata\nTema 6 — Chapter 3. The Church-Turing Thesis and Section 4.1 Decidable Languages\nTema 7 — Section 4.2 Undecidability and Chapter 5. Reducibility\nTema 8 — Section 5.2 A Simple Undecidable Problem and Section 6.2 Decidability of Logical Theories\n\n\n\n\n\n\n\nTeoria de la computació – Computabilitat i indecidibilitat\n\nMaria Serna, Carme Àlvarez, Rafel Cases, Antoni Lozano\nTema 6 — Capítol 1, Capítol 2 i Capítol 3\nTema 7 — Capítol 4\nTema 8 — Capítol 5\n\n\n\n\nMaterial complementario adicional es disponible a la página principal del curso.\n\n\n\n\n\n\n\n\n\n Calendario\n\n\n\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nAquesta secció està subjecta a canvis.\n\n\n\n\nSemana 1 \nSesión 1.1 (teoria) — Presentación del curso y Tema 1 (Teoria de Lenguajes)\nSesión 1.2 (teoria y laboratorio) — DFAs (1h teoria y 1h RACSO)\nAsignación A1 — problemas sobre el Tema 1 (Teoria de Lenguajes)\nSemana 2 \nSesión 2.1 (problemas) — Asignación A1, presentaciones de los estudiantes\nSesión 2.2 (laboratorio) — DFAs\nAsignación A2 — problemas sobre el Tema 2 (Autómata finitos)\nSemana 3 \nSesión 3.1 (problemas) — Asignación A2, presentaciones de los estudiantes\nSesión 3.2 (laboratorio) — DFAs\nSemana 4 \nSesión 4.1 (problemas) — Asignación A2, presentaciones de los estudiantes\nSesión 4.2 (laboratorio) — CFGs\nAsignación A3 — problemas sobre el Tema 3 (gramaticas incontextuales)\nSemana 5 \nSesión 5.1 (problemas) — Asignación A3, presentaciones de los estudiantes\nSesión 5.2 (laboratorio) — CFGs\nSemana 6 \nSesión 6.1 (problemas) — Asignación A3, presentaciones de los estudiantes\nSesión 6.2 (laboratorio) — Operaciones regulares\nSemana 7 \nSesión 7 — Examen Parcial 1 TBD\n\n\nSemana 8 \nSesión 8.1 (teoria) — Expressiones regulares y no regularidad\nSesión 8.2 (laboratorio) — Operaciones regulares y PDAs\nAsignación A4 — problemas sobre el Tema 4 (Expressiones regulares)\nSemana 9 \nSesión 9.1 (problemas) — Asignación A4, presentaciones de los estudiantes\nSesión 9.2 (laboratorio) — PDAs\nAsignación A5 —problemas sobre el Tema 5.1 (No regularidad)\nSemana 10 \nSesión 10.1 (problemas) — Asignación A5, presentaciones de los estudiantes\nSesión 10.2 (teoria) — Tesi de Church-Turing. Decidibilitat (teoria)\nSemana 11 \nSesión 11.1 (teoria) — TM, Decidibilitat, Semidecidibilitat, Computabilitat (teoria)\nSesión 11.2 (teoria) — Decidibilitat vs indecidibilitat (teoria)\nAsignación A6 —problemas sobre el Tema 6 (Màquines de Turing. Decidibilitat, semidecidibilitat, computabilitat) y Tema 7 (Indecidibilitat, no semidecidibilitat, no computabilitat)\nSemana 12 \nSesión 12.1 (teoria y problemas) — Decidibilitat vs Indecidibilitat. Teorema De Rice. Asignación A6, presentaciones de los estudiantes\nSesión 12.2 (laboratorio) — Reduciones a K\nSemana 13 \nSesión 13.1 (problemas) — Asignación A6, presentaciones de los estudiantes Sesión 13.2 (laboratorio) — Reduciones a WP\nSemana 14 \nSesión 14.1 (problemas) — Reduccions que no es poden implementar amb el RACSO\nSesión 14.2 (laboratorio) — Reduciones a CFG\nSemana 15 \nSesión 15.1 — Examen Parcial 2 TBD\nSesión 15.2 — Examen Final TBD\n\n\n\n\n\n\n\n\n\n\n\n Evaluación\n\n\n\n\n\n\nEvaluación continua (nota comulativa e de todas las presentaciones: entre 0 y 2)\n\nPara cada uno de los 7 primeros temas del curso, cada estudiante tiene asignado aleatoriamente un ejercicio para resolver y que presentará a la pizarra.\n\n\nL’avaluació de les competències transversals G7.3 i G9.3 la realitza cada professor individualment per a cada alumne del seu grup basant-se en les presentacions públiques de l’avaluació continuada. L’avaluació de les competències no afecta a l’avaluació de l’assignatura.\n\nExamen Parcial 1 (nota p_1: entre 0 y 8)\n\nTBD\nTemas 1–3\nproblemas para resolver utilizando el jutge online RACSO\n\nExamen Parcial 2 (nota p_2: entre 0 y 8)\n\nTBD\nTemas 4–8\nproblemas para resolver utilizando el jutge online RACSO y parte escrita\n\nExamen Final (nota f: entre 0 y 10)\n\nTBD\nTemas 1–8 Examen escrito\n\n\nHay dos maneras de aprobar este curso: sin presentarse al examen final o presentandose al examen final. La nota en los dos casos se calcula de manera distinta.\nSin presentarse al examen final la nota final es \nc =\\frac{p_1}{2}+\\frac{p_2}{2}+e\\ .\n\nPresentandose al examen final la nota final es\n\n\\max\\left(f,\\ \\frac{f}{2}+\\frac{c}{2}\\right)\\ ."
+  },
+  {
+    "objectID": "T4/T4-self-study.html",
+    "href": "T4/T4-self-study.html",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 6 (des de la secció 6.1 fins la secció 6.4.)\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 1.3 Regular Expressions",
+    "crumbs": [
+      "Info curso",
+      "**4** - Expressiones regulares",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T4/T4-self-study.html#llibres",
+    "href": "T4/T4-self-study.html#llibres",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 6 (des de la secció 6.1 fins la secció 6.4.)\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 1.3 Regular Expressions",
+    "crumbs": [
+      "Info curso",
+      "**4** - Expressiones regulares",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T4/T4-self-study.html#videos",
+    "href": "T4/T4-self-study.html#videos",
+    "title": "Auto-aprendizaje",
+    "section": "Videos",
+    "text": "Videos\nMirar los siguentes videos.",
+    "crumbs": [
+      "Info curso",
+      "**4** - Expressiones regulares",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T5_1/T5_1-self-study.html",
+    "href": "T5_1/T5_1-self-study.html",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 7.1\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 1.4 Non-regular Languages",
+    "crumbs": [
+      "Info curso",
+      "**5.1** - No regularitat",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T5_1/T5_1-self-study.html#llibres",
+    "href": "T5_1/T5_1-self-study.html#llibres",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Llenguatges regulars i incontextuals\n\nRafel Cases, Lluís Màrquez\nCapítol 7.1\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 1.4 Non-regular Languages",
+    "crumbs": [
+      "Info curso",
+      "**5.1** - No regularitat",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T5_1/T5_1-self-study.html#videos",
+    "href": "T5_1/T5_1-self-study.html#videos",
+    "title": "Auto-aprendizaje",
+    "section": "Videos",
+    "text": "Videos\nMirar los siguentes videos.",
+    "crumbs": [
+      "Info curso",
+      "**5.1** - No regularitat",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "exercises/T7-exercises.html",
+    "href": "exercises/T7-exercises.html",
+    "title": "Ejercicios para la evaluación continua",
+    "section": "",
+    "text": "Leyenda\n\n\n\n = el ejercicio ha sido asignado a un/una estudiante/a y será resuelto en clase. Para ver la asignación y la fecha de entrega consulta el racó.\n = el ejercicio debería ser fácil.\n = el ejercicio podría resultar más difícil de otros.\n\n\n\nEjercicio 1 Clasifica como decidibles, no decidibles pero semidecidibles, o no semidecidibles, los siguientes conjuntos.\n\n \\{p\\ \\mid\\ {\\mathcal L}_p\\text{ es finito}\\}.\n \\{p\\ \\mid\\ {\\mathcal L}_p\\text{ es infinito}\\}.\n\\{p\\ \\mid\\ M_p(p)=p\\}.\n\\{p\\ \\mid\\ \\exists y:M_y(p)=p\\}.\n \\{p\\ \\mid\\ |\\mathtt{Dom}(\\varphi_p)|\\geq 10\\}.\n\\{p\\ \\mid\\ |\\mathtt{Dom}(\\varphi_p)|\\geq 0\\}.\n \\{p\\ \\mid\\ |\\mathtt{Im}(\\varphi_p)|\\geq 10\\}.\n\\{p\\ \\mid\\ |\\mathtt{Im}(\\varphi_p)|\\geq 0\\}.\n \\{p\\ \\mid\\ |\\mathtt{Im}(\\varphi_p)|&lt;|\\mathtt{Dom}(\\varphi_p)|&lt;\\infty\\}.\n\\{p\\ \\mid\\ |\\mathtt{Dom}(\\varphi_p)|&lt;|\\mathtt{Im}(\\varphi_p)|&lt;\\infty\\}.\n\\{p\\ \\mid\\ \\varphi_p\\text{ es inyectiva y total}\\}.\n\\{p\\ \\mid\\ \\varphi_p\\text{ es exhaustiva y total}\\}.\n\\{p\\ \\mid\\ \\varphi_p\\text{ es creciente y total}\\}.\n \\{p\\ \\mid\\ \\varphi_p\\text{ es total y estríctamente decreciente}\\}.\n\\{p\\ \\mid\\ \\varphi_p\\text{ es inyectiva parcial}\\}.\n\\{p\\ \\mid\\ \\varphi_p\\text{ es exhaustiva parcial}\\}.\n\\{p\\ \\mid\\ \\varphi_p\\text{ es creciente parcial}\\}.\n\\{p\\ \\mid\\ \\varphi_p\\text{ es estríctamente decreciente parcial}\\}.\n\n\n\nEjercicio 2 Clasifica como decidibles, no decidibles pero semidecidibles, o no semidecidibles, los siguientes conjuntos.\n\n \\{\\langle p,q\\rangle\\ \\mid\\ \\forall z:((M_p(z)\\downarrow\\wedge M_q(z)\\uparrow)\\vee (M_p(z)\\uparrow\\wedge M_q(z)\\downarrow)) \\}.\n \\{\\langle p,z\\rangle\\ \\mid\\ \\exists y:M_p(y)=z\\}.\n\\{\\langle p,z\\rangle\\ \\mid\\ \\exists y:M_p(y)\\not=z\\}.\n\\{p\\ \\mid\\ {\\mathcal L}_p\\text{ es incontextual}\\}.\n \\{p\\ \\mid\\ {\\mathcal L}_p\\text{ no es incontextual}\\}.\n\\{p\\ \\mid\\ \\mathtt{Dom}(\\varphi_p)\\in\\mathtt{Dec}\\}.\n \\{p\\ \\mid\\ \\mathtt{Dom}(\\varphi_p)\\not\\in\\mathtt{Dec}\\}.\n \\{p\\ \\mid\\ \\mathtt{Dom}(\\varphi_p)\\not\\in\\mathtt{semi-Dec}\\}.\n \\{p\\ \\mid\\ \\mathtt{Im}(\\varphi_p)\\in\\mathtt{Dec}\\}.\n \\{p\\ \\mid\\ \\mathtt{Im}(\\varphi_p)\\not\\in\\mathtt{Dec}\\}.\n \\{p\\ \\mid\\ \\mathtt{Im}(\\varphi_p)\\in\\mathtt{semi-Dec}\\}.\n\\{p\\ \\mid\\ \\mathtt{Im}(\\varphi_p)\\not\\in\\mathtt{semi-Dec}\\}.\n\\{p\\ \\mid\\ p\\leq 100\\wedge\\mathtt{Dom}(\\varphi_p)\\in\\mathtt{Dec}\\}.\n\\{p\\ \\mid\\ p\\geq 100\\wedge\\mathtt{Dom}(\\varphi_p)\\in\\mathtt{semi-Dec}\\}.\n \\{p\\ \\mid\\ \\forall y&gt;p:\\varphi_y\\text{ es biyectiva}\\}.\n\\{p\\ \\mid\\ \\forall y&lt;p:\\varphi_y\\text{ es biyectiva}\\}.\n\\{p\\ \\mid\\ \\exists y&gt;p:\\varphi_y\\text{ es biyectiva}\\}.\n\\{p\\ \\mid\\ \\exists y&lt;p:\\varphi_y\\text{ es biyectiva}\\}.\n \\{p\\ \\mid\\ \\exists y:\\mathtt{Dom}(\\varphi_p)\\subseteq\\mathtt{Dom}(\\varphi_y)\\}.\n\\{p\\ \\mid\\ \\exists y:\\mathtt{Dom}(\\varphi_p)\\supseteq\\mathtt{Dom}(\\varphi_y)\\}.\n\\{p\\ \\mid\\ \\mathtt{Dom}(\\varphi_p)\\subseteq\\dot{2}\\}.\n\\{p\\ \\mid\\ \\mathtt{Dom}(\\varphi_p)\\supseteq\\dot{2}\\}.\n\n\n\nEjercicio 3 Clasifica como decidibles, no decidibles pero semidecidibles, o no semidecidibles, los siguientes conjuntos.\n\n K\\times K.\n \\bar{K}\\times K.\n \\bar{K}\\times \\bar{K}.\n\\overline{\\bar{K}\\times K}.\n\\{x\\;|\\;\\text{ el decimal $3$ aparece $x$ veces en el número $\\pi$}\\}.\n\\{\\langle x,y\\rangle\\;|\\;0\\leq x\\leq 9\\;\\wedge \\text{ el decimal $x$ aparece $y$ veces consecutivas en la secuencia de decimales del número $\\pi$}\\}.\n\n\n\nEjercicio 4  Demuestra que K no se puede reducir a \\bar{K}.\n\n\nEjercicio 5  Demuestra que puede ocurrir que C sea decidible, f computable, y sin embargo f(C) no sea decidible.\n\n\nEjercicio 6  Demuestra que puede ocurrir que C sea decidible, f computable y total, y sin embargo f(C) no sea decidible.\n\n\nEjercicio 7  Demuestra que si C es semidecidible y f es computable, entonces f(C) es semidecidible.\n\n\nEjercicio 8 Para cada una de las siguientes funciones indica si son computables, totales y cuál es su imagen.\n\n \\displaystyle\nf(x)=\n\\left\\{\\begin{array}{rcl}\n1&\\ \\ \\ & \\text{si }\\exists n:M_n(x)\\downarrow\\\\\n\\uparrow&\\ \\ \\ & \\text{otherwise}\\\\\n\\end{array}\\right.\n\\displaystyle\nf(x)=\n\\left\\{\\begin{array}{rcl}\n1&\\ \\ \\ & \\text{si }\\forall n:M_n(x)\\downarrow\\\\\n\\uparrow&\\ \\ \\ & \\text{otherwise}\\\\\n\\end{array}\\right.\n\\displaystyle\nf(x)=\n\\left\\{\\begin{array}{rcl}\n1&\\ \\ \\ & \\text{si }\\exists n:M_x(n)\\downarrow\\\\\n\\uparrow&\\ \\ \\ & \\text{otherwise}\\\\\n\\end{array}\\right.\n\\displaystyle\nf(x)=\n\\left\\{\\begin{array}{rcl}\n1&\\ \\ \\ & \\text{si }\\forall n:M_x(n)\\downarrow\\\\\n\\uparrow&\\ \\ \\ & \\text{otherwise}\\\\\n\\end{array}\\right.\n\n\n\nEjercicio 9 La función característica de un conjunto C se define como:\n\n\\chi_C(x)=\n\\left\\{\\begin{array}{rcl}\n1&\\ \\ \\ & \\text{si }x\\in C\\\\\n0&\\ \\ \\ & \\text{si }x\\not\\in C\\\\\n\\end{array}\\right.\n\nDemuestra que C es decidible si y solo si su función característica \\chi_C es computable.\n\n\nEjercicio 10 Justifica si los siguientes conjuntos de parejas son funciones, y si son funciones computables.\n\n\\varphi_3.\n\\{\\langle x,y\\rangle\\ \\mid\\ M_x(x)=y\\}.\n \\{\\langle x,y\\rangle\\ \\mid\\ M_x(x)\\leq y\\}.\n\\{\\langle x,y\\rangle\\ \\mid\\ M_x(x)\\geq y\\}.\n\\{\\langle x,y\\rangle\\ \\mid\\ M_x(x)=M_y(y)\\}.\n\\{\\langle x,y\\rangle\\ \\mid\\ M_x(x)\\text{ para en $y$ pasos o más}\\}.\n\\{\\langle x,y\\rangle\\ \\mid\\ M_x(x)\\text{ para en exactamente $y$ pasos}\\}.\n\\{\\langle x,1\\rangle\\ \\mid\\ M_x(x)\\downarrow\\}\\cup\\{\\langle x,0\\rangle\\ \\mid\\ M_x(x)\\uparrow\\}.\n\\{\\langle x,1\\rangle\\ \\mid\\ M_x(x)\\downarrow\\}.\n\\{\\langle x,0\\rangle\\ \\mid\\ M_x(x)\\uparrow\\}.\n\\{\\langle x,y\\rangle\\ \\mid\\ y=|\\{z|M_x(z)\\downarrow\\}|\\}.",
+    "crumbs": [
+      "Info curso",
+      "**7** - Indecibilidad",
+      "Ejercicios para la evaluación continua"
+    ]
+  },
+  {
+    "objectID": "exercises/T2-exercises.html",
+    "href": "exercises/T2-exercises.html",
+    "title": "Ejercicios para la evaluación continua",
+    "section": "",
+    "text": "Leyenda\n\n\n\n = el ejercicio ha sido asignado a un/una estudiante/a y será resuelto en clase. Para ver la asignación y la fecha de entrega consulta el racó.\n = el ejercicio debería ser fácil.\n = el ejercicio podría resultar más difícil de otros.\n\n\n\n\n\n\n\n\nACLARIMENT\n\n\n\nQuan diem calcula explícitamente, volem dir calculeu l’autòmat aplicant l’algorisme pertinent (intersecció d’autòmats, reunió d’autòmats, …) explicant la costrucció de l’autòmat (intersecció, reunió, ….) i si cal l’algorisme de determinització i l’algorisme de minimització.\n\n\n\nEjercicio 1  Obtén los DFA’s mínimos A_1,A_2 para L_1=\\{xaay\\mid x,y\\in\\{a,b\\}^*\\} y L_2=\\{xbby\\mid x,y\\in\\{a,b\\}^*\\}, respectivamente, i calcula explícitamente el DFA intersección A_1\\cap A_2, determinízalo i minimízalo.\n\n\nEjercicio 2 Obtén los DFA’s mínimos A_1,A_2 para L_1=\\{xaay\\mid x,y\\in\\{a,b\\}^*\\} y L_2=\\{xbby\\mid x,y\\in\\{a,b\\}^*\\}, respectivamente, i calcula explícitamente el DFA unión A_1\\cup A_2, determinízalo i minimízalo.\n\n\nEjercicio 3  Obtén los DFA’s mínimos A_1,A_2 para L_1=\\{xay\\mid x,y\\in\\{a,b\\}^*\\} y L_2=\\{xbbby\\mid x,y\\in\\{a,b\\}^*\\}, respectivamente, i calcula explícitamente el DFA unión A_1\\cup A_2, determinízalo i minimízalo.\n\n\nEjercicio 4  Obtén el DFA mínimo A para L=\\{aaw\\mid w\\in\\{a,b\\}^*\\}, y calcula explícitamente \\overline{A}.\n\n\nEjercicio 5  Obtén el DFA mínimo A para L=\\{w\\in\\{0,1\\}^*\\mid \\mathtt{valor}_2(w)\\in\\dot{3}\\}, y calcula explícitamente \\overline{A}.\n\n\nEjercicio 6 Obtén el DFA mínimo A para L=\\{w\\in\\{0,1\\}^*\\mid |w|\\in\\dot{3}+1\\}, y calcula explícitamente \\overline{A}.\n\n\nEjercicio 7 Obtén los DFA’s mínimos A_1,A_2 para L_1=\\{xaya\\mid x,y\\in\\{a,b\\}^*\\} y L_2=\\{bxby\\mid x,y\\in\\{a,b\\}^*\\}, respectivamente, i calcula explícitamente el \\lambda-NFA concatenación A_1\\cdot A_2, determinízalo i minimízalo.\n\n\nEjercicio 8 Obtén los DFA’s mínimos A_1,A_2 para L_1=\\{xaay\\mid x,y\\in\\{a,b\\}^*\\} y L_2=\\{bxb\\mid x\\in\\{a,b\\}^*\\}, respectivamente, i calcula explícitamente el NFA concatenación A_1\\cdot A_2, determinízalo i minimízalo.\n\n\nEjercicio 9  Obtén los DFA’s mínimos A_1,A_2 para L_1=\\{xaya\\mid x,y\\in\\{a,b\\}^*\\} y L_2=\\{bxb\\mid x\\in\\{a,b\\}^*\\}, respectivamente, i calcula explícitamente el NFA concatenación A_1\\cdot A_2, determinízalo i minimízalo.\n\n\nEjercicio 10  Obtén el DFA mínimo A para L=\\{xay\\in\\{a,b\\}^*\\mid |y|=1\\}, y calcula explícitamente el NFA estrella A^*, determinízalo i minimízalo.\n\n\nEjercicio 11  Obtén el DFA mínimo A para L=\\{xaby\\in\\{a,b\\}^*\\mid |y|=1\\}, y calcula explícitamente el NFA estrella A^*, determinízalo i minimízalo.\n\n\nEjercicio 12 Obtén el DFA mínimo A para L=\\{axaby\\in\\{a,b\\}^*\\mid |y|=1\\}, y calcula explícitamente el NFA estrella A^*, determinízalo i minimízalo.\n\n\nEjercicio 13 Obtén el DFA mínimo A para L=\\{w\\in\\{a,b\\}^*\\mid \\forall w_1,w_2(w=w_1aw_2\\Rightarrow |w_1|_b\\in\\dot{2})\\}, y calcula explícitamente el NFA reverso A^R, determinízalo i minimízalo.\n\n\nEjercicio 14 Obtén el DFA mínimo A para L=\\{w\\in\\{a,b\\}^*\\mid \\forall w_1,w_2(w=w_1aw_2\\Rightarrow |w_1|_b\\in\\dot{2}+1)\\}, y calcula explícitamente el NFA reverso A^R, determinízalo i minimízalo.\n\n\nEjercicio 15  Obtén el DFA mínimo A para L=\\{w\\in\\{a,b\\}^*\\mid \\forall w_1,w_2(w=w_1aw_2\\Rightarrow |w_1|\\in\\dot{2})\\}, y calcula explícitamente el NFA reverso A^R, determinízalo i minimízalo.\n\n\nEjercicio 16  Obtén el DFA mínimo A para L=\\{axbya\\mid x,y\\in\\{a,b\\}^*\\}, i dado el morfismo definido por \\sigma(a)=aa,\\;\\sigma(b)=ba, calcula explícitamente el NFA imagen \\sigma(A), determinízalo i minimízalo.\n\n\nEjercicio 17 Obtén el DFA mínimo A para L=\\{axbyc\\mid x,y\\in\\{a,b,c\\}^*\\}, i dado el morfismo definido por \\sigma(a)=ab,\\;\\sigma(b)=b,\n\\;\\sigma(c)=\\lambda, calcula explícitamente el NFA imagen \\sigma(A), determinízalo i minimízalo.\n\n\nEjercicio 18  Obtén el DFA mínimo A para L=\\{xbcya\\mid x,y\\in\\{a,b,c\\}^*\\}, i dado el morfismo definido por \\sigma(a)=bbb,\\;\\sigma(b)=a,\n\\;\\sigma(c)=\\lambda, calcula explícitamente el NFA imagen \\sigma(A), determinízalo i minimízalo.\n\n\nEjercicio 19 Sea A el DFA mínimo que reconoce a los números binarios múltiples de 3. Calcula \\sigma^{-1}(A) tomando como \\sigma los morfismos:\n\n \\sigma(a)=01,\\;\\sigma(b)=0,\\;\\sigma(c)=\\lambda.\n\\sigma(a)=10,\\;\\sigma(b)=0,\\;\\sigma(c)=\\lambda.\n\\sigma(a)=00,\\;\\sigma(b)=11,\\;\\sigma(c)=\\lambda.\n\\sigma(a)=001,\\;\\sigma(b)=101,\\;\\sigma(c)=0.\n\n\n\nEjercicio 20  Diseña un algoritmo de coste razonable para encontrar los estados no accesibles de un DFA de entrada.\n\n\nEjercicio 21  Diseña un algoritmo de coste razonable para decidir si un DFA de entrada acepta alguna palabra.\n\n\nEjercicio 22  Diseña un algoritmo de coste razonable para decidir si un DFA de entrada acepta infinitas palabras.\n\n\nEjercicio 23  Cuál es el coste del algoritmo de determinización de NFA’s en DFA’s.\n\n\nEjercicio 24 Cuál es el coste temporal de las siguentes operaciones de DFA’s:\n\nintersección.\nunión.\ncomplementario.\nconcatenación (incluyendo determinización).\nestrella (incluyendo determinización).\nreverso (incluyendo determinización).\naplicación de morfismo (incluyendo determinización).\naplicación de morfismo inverso.\n\n\n\n\nEjercicio 25  Cuál es el coste del algoritmo de minimización con una implementación razonable.\n\n\nEjercicio 26  Propón un algoritmo de coste razonable para saber si dos DFA’s de entrada reconocen el mismo lenguaje.\n\n\nEjercicio 27 Propón un algoritmo de coste razonable para saber, si dados dos DFA’s de entrada, el lenguaje generado por el primero está incluido en el lenguaje generado por el segundo.\n\n\nEjercicio 28 Justifiqueu la veracitat o falsetat de les següents afirmacions per a DFAs mínims A,A_1,A_2, NFAs B,B_1,B_2,B_3 i morfisme \\sigma. En cas que les operacions que apareixen hagin estat definides només per a DFAs, assumiu la seva extensió natural a NFAs.\n\n A_1\\cap A_2 és DFA mínim.\nA_1\\cup A_2 és DFA mínim.\n \\overline{A} és DFA mínim.\n\\sigma(A) és DFA.\n\\sigma^{-1}(A) és DFA mínim.\n\\overline{\\overline{A}}=A.\n(B^R)^R=B.\n(B^*)^*=B^*.\n(B_1B_2)B_3=B_1(B_2B_3). \n(B_1B_2)^R=B_2^RB_1^R.\n(B^R)^*=(B^*)^R. \n En el cas en que A^R també sigui DFA, llavors podem concloure que és mínim.\n\n\n\nEjercicio 29 Decimos que un NFA es de aceptación única si para cada palabra aceptada existe una única ejecución aceptadora. Demuestra que, para un NFA de aceptación única A, A^R es un NFA de aceptación única.\n\n\nEjercicio 30  Dado un lenguaje L, definimos \\mathtt{Prefijos}(L) como el lenguaje \\{w|\\exists x:\\, (wx\\in L)\\}. Dado un DFA A, cómo se puede construir un DFA \\mathtt{Prefijos}(A) que cumpla {\\mathcal L}(\\mathtt{Prefijos}(A))=\\mathtt{Prefijos}({\\mathcal L}(A)).\n\n\nEjercicio 31  Dado un lenguaje L, definimos \\mathtt{Sufijos}(L) como el lenguaje \\{w|\\exists x:(xw\\in L)\\}. Dado un DFA A, cómo se puede construir un DFA \\mathtt{Sufijos}(A) que cumpla {\\mathcal L}(\\mathtt{Sufijos}(A))=\\mathtt{Sufijos}({\\mathcal L}(A)).\n\n\nEjercicio 32 Donats dos llenguatges L_1, L_2 \\subseteq \\Sigma^* , definim\n\\mathtt{intercalAND}(L_1,L_2) = \\{x_1y_1  ... x_ny_n | (n \\geq (a) \\,  \\wedge \\, (x_1, ... , x_n ,y_1, ... ,y_n \\in \\Sigma) \\, \\wedge \\, (x_1... x_n \\in L_(a)  \\, \\wedge \\,  (y_1 ... y_n \\in L_2)\\}\nDemostreu que si L_1 i L_2 són regulars, aleshores \\mathtt{intercalAND}(L_1,L_2) també és regular.\n\n\nEjercicio 33 Donat un llenguatge L, definim \\mathtt{FirstHalf}(L)= \\{x \\,| \\exists y: \\, (|x|=|y| \\, \\wedge \\, xy \\in L)\\}. Demostreu que si L és regular, aleshores \\mathtt{FirstHalf}(L) és regular.\n\n\nEjercicio 34  Dado un natural n definimos L_n=\\{w\\in\\{0,1\\}^*|\\exists k: \\,(\\mathtt{valor}_2(w)=k\\cdot 2^n)\\}. Justifica que cualquier L_n es regular. Cuantos estados tiene el DFA mínimo que reconoce L_n?\n\n\nEjercicio 35 Sigui B_n= \\{a^k \\, | \\, k  \\, \\text{és un múltiple de } n\\}. Demostreu que per a cada n\\geq 1, el llenguatge B_n és regular.\n\n\nEjercicio 36 Sigui C_n= \\{x \\in \\{0,1\\}^*  \\, | \\mathtt{valor}_2(x) \\,  \\text{és un múltiple de } n\\}. Demostreu que per a cada n\\geq 1, el llenguatge C_n és regular.\n\n\nEjercicio 37  Demostreu que el llenguatge L_n = \\{ xay \\mid x, i \\in \\{a,b\\}^* \\;\\wedge\\; |y| = n \\}, per a n \\ge 0, té un DFA minim de 2^{n+1} estats.\n\n\nEjercicio 38  Cuantos estados tiene el DFA mínimo que reconoce las palabras sobre \\{a,b,c\\} que contienen al menos 100 ocurrencias de cada uno de estos tres símbolos?",
+    "crumbs": [
+      "Info curso",
+      "**2** - Autómatas finitos",
+      "Ejercicios para la evaluación continua"
+    ]
+  },
+  {
+    "objectID": "exercises/T1-exercises.html",
+    "href": "exercises/T1-exercises.html",
+    "title": "Ejercicios para la evaluación continua",
+    "section": "",
+    "text": "Leyenda\n\n\n\n = el ejercicio ha sido asignado a un/una estudiante/a y será resuelto en clase. Para ver la asignación y la fecha de entrega consulta el racó.\n = el ejercicio debería ser fácil.\n = el ejercicio podría resultar más difícil de otros.\n\n\n\nEjercicio 1  Formalitzeu els següents llenguatges utilitzant la notació clàssica de conjunts, com a parell variable de mot (w\\in \\Sigma^*) i propietat (P) definida sobre mots, de manera que el llenguatge es pot definir com el conjunt \\{w \\in \\Sigma^* \\mid P(w)\\}. Per a definir formalment la propietat P feu servir quantificadors universals i existencials (\\forall,\\exists), operadors booleans (\\lor, \\land, \\implies, …) i les notacions sobre mides de mots que hem introduït.\n\nLlenguatge dels mots sobre \\{a,b\\} que contenen el submot ab.\nLlenguatge dels mots sobre \\{a,b\\} tals que a la dreta de cada submot ab hi ha algun submot ba.\nLlenguatge dels mots sobre \\{a,b\\} que contenen el submot ab i el submot ba.\n Llenguatge dels mots sobre \\{a,b,c\\} tals que entre cada dues b’s hi ha alguna a.\n Llenguatge de mots sobre \\{a,b\\} tal que tota ocurrència de b està en posició parell (el primer símbol d’un mot ocupa la posició 1).\n Llenguatge dels mots sobre \\{a,b\\} amb algun prefix amb més b’s o igual que a’s.\nLlenguatge dels mots sobre \\{a,b\\} tals que qualsevol prefixe seu té més b’s o igual que a’s.\n Llenguatge dels mots sobre \\{a,b\\} amb algun prefix de mida parell amb més b’s o igual que a’s.\nLlenguatge dels mots sobre \\{a,b\\} tals que qualsevol prefixe seu de mida parell té més b’s o igual que a’s.\nLlenguatge dels mots sobre \\{a,b\\} que tenen un prefix i un sufix idèntics de mida major que 0 i menor que la mida del propi mot. \n\n\n\nEjercicio 2 Argumenteu si són certes (amb una justificació) o falses (amb un contraexemple) les següents afirmacions sobre mots x,y,z i llenguatges A,B,C en general.\n\n\nxy=yx.\n  xy=xz\\implies y=z.\nA(BC)=(AB)C.\nAB=BA.\n A\\not=\\emptyset \\land AB=AC \\implies B=C.\n A\\not=\\emptyset \\land B\\not=\\emptyset \\land  AB=CD \\land (\\forall u\\in A,v\\in C:|u|=|v|) \\implies A=C \\land B=D.\n(A\\cup B) C=AC\\cup BC i A(B\\cup C)=AB\\cup AC.\n (A\\cap B) C\\subseteq AC\\cap BC i A(B\\cap C)\\subseteq AB\\cap AC.\n(A\\cap B) C\\supseteq AC\\cap BC i A(B\\cap C)\\supseteq AB\\cap AC. \n\n\n\nEjercicio 3 (Estrella de Kleene) Argumenteu si són certes (amb una justificació) o falses (amb un contraexemple) les següents afirmacions en general.\n\n L^*=\\{a,b\\}^* \\implies \\{a,b\\}\\subseteq L.\n L_1^*L_2^*\\subseteq (L_1L_2)^*.\n L_1^*L_2^*\\supseteq (L_1L_2)^*.\nL_1^+\\cup L_2^+=\\{a,b\\}^+ \\land L_1^+\\cap L_2^+=\\emptyset\n\\implies L_1=\\emptyset \\lor L_2=\\emptyset.\n(L_1^*\\cup L_2^*)\\subseteq (L_1\\cup L_2)^*.\n (L_1^*\\cup L_2^*)\\supseteq (L_1\\cup L_2)^*.\n (L_1\\cap L_2)^*\\subseteq (L_1^*\\cap L_2^*).\n(L_1\\cap L_2)^*\\supseteq (L_1^*\\cap L_2^*).\n L_1^*\\subseteq L_2^* \\implies L_1\\subseteq L_2.\n \\overline{L^*}\\subseteq \\overline{L}\\subseteq \\overline{L}^*.\n\\overline{L^*}\\supseteq \\overline{L}\\supseteq \\overline{L}^*. \n L_1\\not=\\emptyset \\land  L_2\\not=\\emptyset \\land L_1\\cap L_2=\\emptyset \\implies L_1^*\\not=L_2^*.\nL^+L^+\\subseteq L^+.\nL^+L^+\\supseteq L^+. \n (L^2)^*\\subseteq (L^*)^2.\n (L^2)^*\\supseteq (L^*)^2.\n L\\subseteq L^2\\iff (\\lambda\\in L) \\lor  (L=\\emptyset).\nL^2\\subseteq L\\Leftrightarrow L=L^+.\n (\\lambda\\in L) \\land  (L^2\\subseteq L) \\iff L=L^*.\n L=L^2 \\implies (L=L^*) \\lor  (L=\\emptyset).\n\n\n\nEjercicio 4 (Reverso) Argumenteu si són certes (amb una justificació) o falses (amb un contraexemple) les següents afirmacions en general.\n\n(xy)^R=y^Rx^R.\n(L_1L_2)^R=L_2^RL_1^R.\n(L_1\\cup L_2)^R=L_1^R\\cup L_2^R.\n(L_1\\cap L_2)^R=L_1^R\\cap L_2^R.\n \\overline{L}^R=\\overline{L^R}.\n (L^*)^R=(L^R)^*.\n(L_1L_2)^R=L_1^R L_2^R \\implies L_1=L_2.\n\n\n\nEjercicio 5 (Morfismos I) Quines de les següents definicions de la funció \\sigma defineixen un morfisme (és a dir, cumpleixen \\sigma(xy)=\\sigma(x)\\sigma(y) per a mots x,y qualssevol).\n\n\\sigma(a_1a_2\\cdots a_n)=a_1a_1a_2a_2\\cdots a_na_n, essent a_1, \\ldots, a_n, tot ells, símbols de l’alfabet.\n\\sigma(a_1a_2a_3\\cdots a_n)=a_1a_2a_2a_3a_3a_3\\cdots\\overbrace{a_n\\cdots a_n}^{n)}, essent a_1, \\ldots, a_n, tot ells, símbols de l’alfabet.\n\\sigma(w)=w.\n\\sigma(w)=\\lambda.\n\\sigma(w)=a^{|w|}.\n\\sigma(w)=w^R.\n\\sigma(w)=\\sigma_1(\\sigma_2(w)) per a morfismes \\sigma_1,\\sigma_2.\n\n\n\nEjercicio 6 (Morfismos II) Argumenteu si són certes (amb una justificació) o falses (amb un contraexemple) les següents afirmacions en general, on \\sigma és un morfisme.\n\n\\sigma(L_1L_2)=\\sigma(L_1)\\sigma(L_2).\n\\sigma(L^n)=\\sigma(L)^n.\n\\sigma(L_1\\cup L_2)= \\sigma(L_1)\\cup\\sigma(L_2).\n\\sigma(L^*)=\\sigma(L)^*.\n\\sigma(L^R)=\\sigma(L)^R.\n\\sigma(\\overline{L})=\\overline{\\sigma(L)}.\n\\sigma(L)=L \\implies \\forall x\\in L:\\sigma(x)=x. \n\n\n\nEjercicio 7 Argumenteu si són certes (amb una justificació) o falses (amb un contraexemple) les següents afirmacions en general.\n\n|L_1|\\cdot|L_2|=|L_1\\cdot L_2|.\n(\\forall a,b\\in\\Sigma:(a\\not=b\\implies \\sigma(a)\\not=\\sigma(b)))\\implies |\\sigma(L)|=|L|, on \\sigma és un morfisme.\n|L^R|=|L|.\n|L^n|=|L|^n.\n\n\n\nEjercicio 8 (Shiftar) Donat un llenguatge L, shiftar L dóna lloc a un nou llenguatge, que denotem S(L), i que conté als mots que s’obtenen agafant cada mot de L i rotant-lo de totes les maneres possibles, formalment: S(L)=\\{vu\\mid uv\\in L\\}. Argumenteu si són certes (amb una justificació) o falses (amb un contraexemple) les següents afirmacions en general.\n\nS(L)^*\\subseteq S(L^*).\nS(L)^*\\supseteq S(L^*).\n\\overline{S(L)}=S(\\overline{L}).\nS(L^R)=S(L)^R.\nS(L_1\\cup L_2)=S(L_1)\\cup S(L_2).\nS(L_1\\cap L_2)=S(L_1)\\cap S(L_2).\nS(L_1L_2)=S(L_1)S(L_2).\nS(\\sigma(L))=\\sigma(S(L)), on \\sigma és un morfisme.\n\n\n\nEjercicio 9  Demostreu que no hi ha cap mot w que satisfaci aw=wb, essent a i b símbols de l’alfabet.\n\n\nEjercicio 10   Demostreu que, per a qualsevol alfabet \\Sigma, hi ha un únic llenguatge L que satisfà L=\\overline{\\Sigma L}. Quin és aquest llenguatge?",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Ejercicios para la evaluación continua"
+    ]
+  },
+  {
+    "objectID": "exercises/T8-exercises.html",
+    "href": "exercises/T8-exercises.html",
+    "title": "Ejercicios para la evaluación continua",
+    "section": "",
+    "text": "Leyenda\n\n\n\n = el ejercicio ha sido asignado a un/una estudiante/a y será resuelto en clase. Para ver la asignación y la fecha de entrega consulta el racó.\n = el ejercicio debería ser fácil.\n = el ejercicio podría resultar más difícil de otros.\n\n\n\nEjercicio 1 Demostrad que los siguientes problemas son indecidibles reduciendo desde accesibilidad de palabras.\n\n\\{\\langle u,v,R\\rangle|\\exists w_1,w_2:u\\to_R^*w_1vw_2\\}.\n\\{\\langle u,v,R\\rangle|u\\to_R^*vv\\}.\n\\{\\langle u,v,R\\rangle|uu\\to_R^*v\\}.\n\\{\\langle u,v,w,R\\rangle|u\\to_R^*v\\text{ sin pasar por }w\\}.\n\\{\\langle u,v,R\\rangle|u\\to_R^*v\\wedge \\forall (l\\to r)\\in R: |l|=1\\vee |r|=1\\}.\n\\{\\langle u,v,R=\\{l_1\\to r_1,\\ldots,l_n\\to r_n\\}\\rangle\\;|\\; u\\to_R^*v\\wedge |l_1|,|r_1|,\\ldots,|l_n|,|r_n|\\leq 2\\wedge |u|=|v|=1\\}.\n\\{\\langle u,v,R\\rangle|u\\to_R^*v\\text{ usando cada regla de $R$ al menos una vez}\\}.\n\n\n\nEjercicio 2 Demostrad que los siguientes problemas son indecidibles reduciendo desde PCP o PCP-INI.\n\n\\{\\langle u_1,v_1,\\ldots,u_n,v_n\\rangle|n\\in \\dot{2}+1\\wedge\\exists 1\\leq i_1,\\ldots,i_k\\leq n:(k&gt;0\\;\\wedge\\;u_{i_1}\\cdots u_{i_k}=v_{i_1}\\cdots v_{i_k})\\}.\n\\{\\langle u_1,v_1,\\ldots,u_n,v_n\\rangle|\\exists 1\\leq i_1,\\ldots,i_k\\leq n:(k\\in\\dot{2}\\wedge u_{i_1}\\cdots u_{i_k}=v_{i_1}\\cdots v_{i_k})\\}.\n\\{\\langle u_1,v_1,\\ldots,u_n,v_n\\rangle|\\;|u_1|,|v_1|,\\ldots,|u_n|,|v_n|\\in\\dot{2}\\wedge\\exists 1\\leq i_1,\\ldots,i_k\\leq n:(k&gt;0\\;\\wedge\\;u_{i_1}\\cdots u_{i_k}=v_{i_1}\\cdots v_{i_k})\\}.\n\\{\\langle u_1,v_1,\\ldots,u_n,v_n\\rangle|u_1,v_1,\\ldots,u_n,v_n\\in\\{0,1\\}^*\\wedge\\exists 1\\leq i_1,\\ldots,i_k\\leq n:(k&gt;0\\;\\wedge\\;u_{i_1}\\cdots u_{i_k}=v_{i_1}\\cdots v_{i_k})\\}.\n\n\n\nEjercicio 3 Demostrad que los siguientes problemas son indecidibles reduciendo desde intersección vacía,o desde intersección no vacía.\n\n\\{\\langle G_1,G_2\\rangle\\mid|{\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)|\\geq 3\\}.\n\\{\\langle G_1,G_2\\rangle\\mid|{\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)|=3\\}.\n\\{\\langle G_1,G_2\\rangle\\mid|{\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)|=\\infty\\}.\n\\{\\langle G_1,G_2\\rangle\\mid |\\mathcal{L}(G_(a)|=|\\mathcal{L}(G_2)|=\\infty\\wedge|{\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)|\\not=\\infty\\}.\n\\{\\langle G_1,G_2\\rangle\\mid\\Sigma_{G_1}=\\Sigma_{G_2}=\\{a,b\\}^*\\;\\wedge\\;{\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)\\not=\\emptyset\\wedge{\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)\\cap\\{aa,bb\\}^*=\\emptyset\\}.\n\\{\\langle G_1,G_2\\rangle\\mid{\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)\\not=\\emptyset\\wedge\\not\\exists w\\in ({\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)):|w|\\in\\dot{2}+1\\}.\n\\{\\langle G_1,G_2\\rangle\\mid{\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)\\not=\\emptyset\\wedge\\not\\exists w\\in ({\\mathcal L}(G_(a)\\cap{\\mathcal L}(G_2)):|w|\\in\\dot{2}\\}.\n\n\n\nEjercicio 4 Demostrad que los siguientes problemas son indecidibles reduciendo desde no universalidad.\n\n\\{G\\;|\\;{\\mathcal L}(G)\\not=\\Sigma^*-\\{\\lambda\\}\\}.\n\\{G\\;|\\;{\\mathcal L}(G)\\not=\\Sigma^*-\\{aab\\}\\}.\n\\{G\\;|\\;{\\mathcal L}(G)\\not\\supseteq(aab\\Sigma^*)\\}.\n\\{G=\\langle V,\\Sigma,\\delta,S\\rangle\\;|\\;\\Sigma=\\{a,b\\}\\wedge{\\mathcal L}(G)\\not=\\Sigma^*\\}.\n\\{G=\\langle V,\\Sigma,\\delta,S\\rangle\\;|\\;\\Sigma=\\{a,b\\}\\wedge{\\mathcal L}(G)\\not=(aa+bb)^*\\}.\n\\{G=\\langle V,\\Sigma,\\delta,S\\rangle\\;|\\;\\Sigma=\\{a,b\\}\\wedge{\\mathcal L}(G)\\not=(aa+bb+ab+ba)^*\\}.\n\\{G=\\langle V,\\Sigma,\\delta,S\\rangle\\;|\\;\\Sigma=\\{a,b,c\\}\\wedge{\\mathcal L}(G)\\not=\\Sigma^*\\}.\n\\{G\\;|\\;|\\overline{{\\mathcal L}(G)}|=\\infty\\}.\n\n\n\nEjercicio 5 Sea L un lenguaje regular. Demuestra que o bien \\{G\\;|\\;{\\mathcal L}(G)=L\\} o bien \\{G\\;|\\;{\\mathcal L}(G)=\\bar{L}\\} es indecidible.\n\n\n\n\n\n\nPista\n\n\n\nProcede por reducción al absurdo suponiendo que ambos son decidibles y concluyendo que entonces universalidad es decidible.\n\n\n\n\nEjercicio 6 Demuestra que los siguientes problemas son indecidibles reduciendo desde veracidad de fórmulas de lógica de primer orden interpretadas sobre palabras.\n\nEl problema de saber si una descripción de la forma \\{w|F(w)\\}, donde F es una fórmula de lógica de palabras con variable libre w, representa al lenguaje (a+b)^*.\nEl problema de saber si una descripción de la forma \\{w|F(w)\\}, donde F es una fórmula de lógica de palabras con variable libre w, representa al lenguaje vacío.\nEl problema de saber si una descripción de la forma \\{w|F(w)\\}, donde F es una fórmula de lógica de palabras con variable libre w, representa al lenguaje a^*b^*.\nEl problema de saber si una descripción de la forma \\{w|F(w)\\}, donde F es una fórmula de lógica de palabras con variable libre w, representa al lenguaje de las palabras palíndromas sobre \\{a,b\\}.\nEl problema de saber si una descripción de la forma \\{w|F(w)\\}, donde F es una fórmula de lógica de palabras con variable libre w, representa algun lenguaje finito.\nEl problema de saber si una descripción de la forma \\{w|F(w)\\}, donde F es una fórmula de lógica de palabras con variable libre w, representa algun lenguaje incontextual.\n\n\n\nEjercicio 7 Demuestra que los siguientes problemas son decidibles:\n\n\\{\\langle u,v,R=\\{l_1\\to r_1,\\ldots,l_n\\to r_n\\}\\rangle\\;|\\; u\\to_R^*v\\wedge\\forall 1\\leq i\\leq n:|l_i|\\geq|r_i|\\}.\n\\{\\langle u,v,R=\\{l_1\\to r_1,\\ldots,l_n\\to r_n\\}\\rangle\\;|\\; u\\to_R^*v\\wedge\\forall 1\\leq i\\leq n:|l_i|\\leq|r_i|\\}.\n\\{\\langle u,v,R=\\{l_1\\to r_1,\\ldots,l_n\\to r_n\\}\\rangle\\;|\\; u\\to_R^*v\\wedge|R|=1\\}.\n\\{\\langle u,v,R=\\{l_1\\to r_1,\\ldots,l_n\\to r_n\\}\\rangle\\;|\\; u\\to_R^*v\\wedge|u|,|v|,|l_1|,|r_1|,\\ldots,|l_n|,|r_n|\\leq 10 \\wedge\\Sigma=\\{0,1\\}\\}.\n\\{\\langle u,v,R=\\{l_1\\to r_1,\\ldots,l_n\\to r_n\\}\\rangle\\;|\\; u\\to_R^*v\\wedge u,v,l_1,r_1,\\ldots,l_n,r_n\\in a^*\\}.\n\\{\\langle u_1,v_1,\\ldots,u_n,v_n\\rangle| u_1,v_1,\\ldots,u_n,v_n\\in a^*\\exists 1\\leq i_1,\\ldots,i_k\\leq n: u_{i_1}\\cdots u_{i_k}=v_{i_1}\\cdots v_{i_k}\\}.\n\\{\\langle G,A\\rangle\\in\\mathtt{CFG}\\times\\mathtt{DFA}\\;|\\; {\\mathcal L}(G)\\not\\subseteq{\\mathcal L}(A)\\}.\n\n\n\nEjercicio 8 Completa la siguiente reducción de PCP a intersección no vacía: \\langle u_1,v_1,\\ldots,u_n,v_n\\rangle \\mapsto \\langle S\\to u_1Sv_1^R|\\cdots|u_nSv_n^R|u_1\\#v_1^R|\\cdots|u_n\\#v_n^R\\;,\\;\\ldots ?\\ldots\\rangle.\n\n\nEjercicio 9 Cuales de los siguientes problemas pueden ser decidibles y cuales pueden ser indecidibles:\n\n\\{\\langle u,v\\rangle\\;|\\; u\\to_R^*v\\} donde R es un sistema de reescritura fijado de antemano.\n\\{R\\;|\\; u\\to_R^*v\\} donde u,v son palabras diferentes fijadas de antemano.\n\\{\\langle u_1,v_1,\\ldots,u_n,v_n\\rangle| \\exists 1\\leq i_1,\\ldots,i_k\\leq n: u_{i_1}\\cdots u_{i_k}=v_{i_1}\\cdots v_{i_k}\\} donde k es un número fijado de antemano.\n\\{\\langle u_1,v_1,\\ldots,u_n,v_n\\rangle| \\exists 1\\leq i_1,\\ldots,i_k\\leq n: u_{i_1}\\cdots u_{i_k}=v_{i_1}\\cdots v_{i_k}\\} donde n es un número fijado de antemano.\n\\{G|{\\mathcal L}(G)\\supseteq{\\mathcal L}(G')\\} donde G' es una gramática fijada de antemano.\n\\{G\\in\\mathtt{CFG}\\;|\\; {\\mathcal L}(G)\\not\\supseteq{\\mathcal L}(A)\\} donde A es un DFA fijado de antemano.\n\\{G|{\\mathcal L}(G)\\not\\subseteq{\\mathcal L}(G')\\} donde G' es una gramática fijada de antemano.\n\\{G|{\\mathcal L}(G)\\cap{\\mathcal L}(G')\\not=\\emptyset\\} donde G' es una gramática fijada de antemano.\n\n\n\n\n\n\n\nPista\n\n\n\nEn los ultimos dos piensa en la reducción de PCP a intersección no vacía del Ejercicio 8.\n\n\n\n\nEjercicio 10 Dado un sistema de reescritura R=\\{l_1\\to r_1,\\ldots,l_n\\to r_n\\} sobre el alfabeto \\{a,b\\}, llamaremos w_R a la palabra \\#l_1\\$r_1\\#l_2\\$r_2\\#\\ldots\\#l_n\\$r_n\\#, donde \\# y \\$ son símbolos nuevos. Esencialmente, w_R es una palabra que codifica el sistema de reescritura. Demuestra que existe una fórmula de lógica de primer orden sobre palabras F(x,y,z), donde x, y y z son variables libres, que cumple lo siguiente: dadas dos palabras u, v y un sistema de reescritura R, todos ellos sobre el alfabeto \\{a,b\\}, resulta que u\\to_R^*v\\Leftrightarrow F(u,v,w_R).\n\n\nEjercicio 11 Aprovechando el resultado del ejercicio anterior, demuestra que los siguientes problemas son indecidibles reduciendo desde veracidad de fórmulas de lógica de primer orden interpretadas sobre palabras.\n\nEl problema de saber si una descripción de la forma \\{w|F(w)\\}, donde F es una fórmula de lógica de palabras con variable libre w, representa algun lenguaje decidible.\nEl problema de saber si una descripción de la forma \\{w|F(w)\\}, donde F es una fórmula de lógica de palabras con variable libre w, representa algun lenguaje semidecidible.\n\n\n\nEjercicio 12 Justifica que \\{G|{\\mathcal L}(G)\\text{ no es regular}\\} es indecidible.\n\n\n\n\n\n\nPista\n\n\n\nRetoca la reducción de PCP a intersección no vacía \\langle u_1,v_1,\\ldots,u_n,v_n\\rangle \\mapsto \\langle G_1,G_2\\rangle así: \\langle u_1,v_1,\\ldots,u_n,v_n\\rangle \\mapsto \\langle \\{a^mb^m\\}\\cdot G_1,\\{a^mb^m\\}\\cdot G_2\\rangle, donde a y b son símbolos nuevos. Haz lo mismo con la reducción de PCP a no-universalidad. Justifica que la gramática resultante, si no es universal, entonces el lenguaje que genera no es regular.",
+    "crumbs": [
+      "Info curso",
+      "**8** - Problemas naturales indecidibles",
+      "Ejercicios para la evaluación continua"
+    ]
+  },
+  {
+    "objectID": "T1/notation.html",
+    "href": "T1/notation.html",
+    "title": "Nociones y notaciones básicas",
+    "section": "",
+    "text": "En este capítulo introduciremos las nociones y notaciones básicas sobre teoría de lenguajes que utilizaremos a lo largo del curso.\nUn alfabeto es un conjunto finito a cuyos elementos llamaremos símbolos. Usualmente lo denotaremos con el símbolo \\Sigma (Sigma). Aunque un alfabeto es un conjunto finito cualquiera, frecuentemente sus elementos serán denotados con letras o dígitos. Por ejemplo, el conjunto \\Sigma=\\{a,b\\} sería un posible alfabeto.\nUna palabra construida sobre un cierto alfabeto es una lista de símbolos de ese alfabeto.\n\nEjemplo 1 Sobre el alfabeto \\Sigma=\\{a,b\\}, podemos tener la palabra ab, la palabra formada por el símbolo a y el símbolo b, o la palabra bbb (entre muchas otras). También a sería una palabra: en este caso con un solo símbolo, una palabra de longitud uno.\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nNo hemos definido formalmente el concepto de lista, así como tampoco lo haremos sobre el concepto de conjunto Los consideramos conceptos de base para la asignatura. Demasiado básicos para ser definidos con precisión en nuestro contexto. Eso puede acarrearnos a posterior algunas dificultades cuando queramos intentar justificar algunas propiedades demasiado básicas. En esos casos, generalmente, nos limitaremos a considerarlas como obvias o intentaremos convencernos de su veracidad de forma más o menos esquemática o intuitiva.\n\n\nSobre cualquier alfabeto podremos construir siempre la palabra de longitud 0 o palabra vacía Esta la notaremos con el símbolo \\lambda (lambda).\n\n\n\n\n\n\nAdvertencia\n\n\n\nAsumimos siempre que \\lambda no es un símbolo del alfabeto. Es un meta-símbolo que nos sirve para denotar la lista de longitud 0. En algunos libro de texto la palabra vacía se denota con \\epsilon, nosotros la denotamos con \\lambda.\n\n\nUsaremos las letras u, v y w con posibles subíndices para denotar palabras. Del siguiente modo denotaremos la longitud de una palabra u con |u|.\n\nEjemplo 2 |ab|=2, |bbb|=3, |a|=1 y |\\lambda|=0.\n\nEsta notación se extiende para denotar ocurrencias de una palabra dentro de otra El numero de occurrencias de la palabra w dentro de la palabra u se denota con |u|_w.\n\nEjemplo 3  \n\n|a|_a=1, el número de ocurrencias de a en a es 1,\n|bbb|_b=3, el número de ocurrencias de b en bbb es 3 y\n|bbb|_{bb}=2, el número de ocurrencias de la palabra bb en bbb es 2, la ocurrencia que aparece a posición uno y la que aparece a posición dos.\n\n\nCon u[i] denotamos el símbolo i-esimo de la palabra u.\n\nEjemplo 4  \n\nab[1]=a, la palabra ab a posición uno tiene una a, y\nab[2]=b, la palabra ab a posición dos una b.\n\n\nMediante la operación producto representada con un punto \\cdot como operación enfija (o a veces sin escribir nada) representamos la concatenación de dos palabras. La concatenación de las palabras u y v es u\\cdot v o uv. La concatenación es una operación que da como resultado la concatenación de las respectivas listas.\n\nEjemplo 5 La concatenación de la palabra ab con la palabra bbb, es decir (ab)\\cdot (bbb), produce la palabra abbbb.\n\nLa palabra vacía \\lambda es el elemento neutro de la concatenación, es decir que por cualquier palabra u, u\\cdot \\lambda=\\lambda\\cdot u=u, cosa que se puede comprobar fácilmente. Además no es difícil comprobar que la concatenación de palabras es una operación asociativa, es decir que u\\cdot(v\\cdot w)=(u\\cdot v)\\cdot w para todas palabras u, v, w.\nMediante \\Sigma^* (Sigma estrella) representaremos el conjunto de todas las palabras posibles que se pueden construir sobre el alfabeto \\Sigma.\n\nEjemplo 6 Si \\Sigma=\\{a,b\\} podremos construir todas las palabras posibles sobre \\Sigma empezando por la palabra de longitud cero \\lambda, las dos palabras de longitud 1, a y b, las cuatro palabras de longitud dos, aa, ab, ba, bb y así sucesivamente. Es decir, \n\\Sigma^*=\\{\\lambda, a, b, aa, ab, ba, bb, \\dots\\}\\ .\n\n\nUn lenguaje sobre un alfabeto \\Sigma es un subconjunto cualquiera de \\Sigma^*. Los lenguajes los denotaremos solitamente con la letra L.\n\nEjemplo 7 El lenguaje L de las palabras sobre \\{a,b\\} y del longitud múltiple de 2 lo podríamos representar de esta manera: \nL=\\{w\\in \\{a,b\\}^* \\mid |w|\\in \\dot 2\\}\\ .\n Fijémonos en que estamos usando esencialmente la notación clásica de conjuntos donde ponemos en primer lugar la variable por la que implícitamente se puede sustituir a una palabra y a la derecha del simbulo \\mid describimos la propiedad que debe cumplir esa palabra para pertenecer efectivamente al conjunto. El mismo conjunto de palabras de longitud múltiple de dos lo podemos representar de forma más explícita como sigue \nL=\\{\\lambda, aa, ab, ba, bb, aaaa, aaab, \\dots\\}\\ .\n\n\n\nEjemplo 8 El lenguaje L de las palabras sobre \\{a,b\\} que tienen alguna ocurrencia de alguna a. Nuevamente usamos la notación clásica de conjuntos: \nL=\\{w\\in \\{a,b\\}^* \\mid \\exists w_1,w_2\\in \\{a,b\\}^*\\ \\  w=w_1aw_2\\}\\ .\n En este caso la propiedad viene expresada mediante un cuantificador existencial. Si w coincide con la concatenación de una palabra cualquiera w_1 seguida de a seguida de otra palabra cualquiera w_2 es que cumple nuestra propiedad.\nAlternativamente, podríamos representar L sacando provecho de la notación para representar el número de ocurrencias de a dentro de una palabra: \nL=\\{w\\in \\{a,b\\}^*\\mid |w|_a\\geq 1\\}\\ .\n\n\n\nEjemplo 9 El lenguaje L de las palabras sobre \\{a,b\\} que tales que toda ocurrencia de a viene seguida inmediatamente de una ocurrencia de b. Una posible manera de denotarlo es esta: \nL=\\{w\\in \\{a,b\\}^* \\mid \\forall w_1,w_2\\in \\{a,b\\}^* (w=w_1aw_2 \\implies \\exists w_2'\\in \\{a,b\\}^*\\ w_2=bw_2')\\}\\ .\n Entendamos cómo funciona el cuantificador universal (\\forall) combinado con la implicación (\\implies). Fijaos que para aquellos w_1 y w_2 tales que w no coincide con w_1 seguido de a, seguido de w_2 resulta que el antecedente de la implicación es falso y por tanto la implicación es cierta. Ello nos garantiza que el consecuente debe cumplirse simplemente para aquellas particiones de la palabra w que nos interesan.\nUna forma alternativa de describir este lenguaje L sería la siguiente: \nL=\\{w\\in \\{a,b\\}^* \\mid w=\\lambda \\lor (|w|_{aa}=0 \\land \\exists w'\\in \\{a,b\\}^*\\ w=w'b)\\}\\ .\n\nNuevamente sacamos provecho de la notación adicional que hemos introducido para representar ocurrencias de una palabra dentro de otra. Las palabras tales que toda a viene seguida de una b no pueden contener aa pero también debemos garantizar que la palabra no termina en a de modo que añadimos esta condición adicional forzando a que termina en b (o que alternativamente es la palabra vacía \\lambda).",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Nociones y notaciones básicas"
+    ]
+  },
+  {
+    "objectID": "T1/T1-theory.html",
+    "href": "T1/T1-theory.html",
+    "title": "Reglas de re-escritura",
+    "section": "",
+    "text": "En este capítulo introduciremos las nociones y notaciones básicas sobre teoría de lenguajes que utilizaremos a lo largo del curso.\nUn alfabeto es un conjunto finito a cuyos elementos llamaremos símbolos. Usualmente lo denotaremos con el símbolo \\Sigma (Sigma). Aunque un alfabeto es un conjunto finito cualquiera, frecuentemente sus elementos serán denotados con letras o dígitos. Por ejemplo, el conjunto \\Sigma=\\{a,b\\} sería un posible alfabeto.\nUna palabra construida sobre un cierto alfabeto es una lista de símbolos de ese alfabeto.\nSobre cualquier alfabeto podremos construir siempre la palabra de longitud 0 o palabra vacía Esta la notaremos con el símbolo \\lambda (lambda).\nUsaremos las letras u, v y w con posibles subíndices para denotar palabras. Del siguiente modo denotaremos la longitud de una palabra u con |u|.\nEsta notación se extiende para denotar ocurrencias de una palabra dentro de otra El numero de occurrencias de la palabra w dentro de la palabra u se denota con |u|_w.\nCon u[i] denotamos el símbolo i-esimo de la palabra u.\nMediante la operación producto representada con un punto \\cdot como operación enfija (o a veces sin escribir nada) representamos la concatenación de dos palabras. La concatenación de las palabras u y v es u\\cdot v o uv. La concatenación es una operación que da como resultado la concatenación de las respectivas listas.\nLa palabra vacía \\lambda es el elemento neutro de la concatenación, es decir que por cualquier palabra u, u\\cdot \\lambda=\\lambda\\cdot u=u, cosa que se puede comprobar fácilmente. Además no es difícil comprobar que la concatenación de palabras es una operación asociativa, es decir que u\\cdot(v\\cdot w)=(u\\cdot v)\\cdot w para todas palabras u, v, w.\nMediante \\Sigma^* (Sigma estrella) representaremos el conjunto de todas las palabras posibles que se pueden construir sobre el alfabeto \\Sigma.\nUn lenguaje sobre un alfabeto \\Sigma es un subconjunto cualquiera de \\Sigma^*. Los lenguajes los denotaremos solitamente con la letra L.\nSobre lenguajes L_1,L_2\\subseteq \\Sigma^* podemos claramente hacer todas las operaciones que podemos hacer entre conjuntos genericos, por ejemplo L_1\\cap L_2, or L_1\\cup L_2, o tomar el complemento de L_1, es decir \\overline{L_1}=\\Sigma^*\\setminus L_1."
+  },
+  {
+    "objectID": "T1/T1-theory.html#concatenación",
+    "href": "T1/T1-theory.html#concatenación",
+    "title": "Reglas de re-escritura",
+    "section": "Concatenación",
+    "text": "Concatenación\nMediante el símbolo lambda mayúscula \\Lambda, denotamos el lenguaje que contiene únicamente a la palabra vacía \\lambda. Es decir \n\\Lambda =\\{\\lambda\\}\\ .\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nFijaos que el lenguaje \\Lambda no es el lenguaje vacío (o conjunto vacío) \\emptyset, simplemente porqué \\Lambda tiene un elemento que es la palabra vacía \\lambda.\n\n\nDefinimos ahora la concatenación de dos lenguajes, que denotaremos de forma análoga a la concatenación de dos palabras.\nLa concatenación de un lenguaje L_1\\subseteq \\Sigma^* con un lenguaje L_2\\subseteq \\Sigma^* da como resultado un nuevo lenguaje L_1\\cdot L_2\\subseteq \\Sigma^* que contiene aquellas palabras que se pueden obtener concatenando una palabra cualquiera de L_1 con una palabra cualquiera de L_2. Es decir, \nL_1\\cdot L_2 =\\{w_1w_2 \\mid w_1\\in L_1 \\land w_2\\in L_2\\}\\ .\n\n\nEjemplo 10 \n\\{a,bb\\}\\cdot\\{b,ba\\}=\\{ab,aba,bbb,bbba\\}\\ .\n Al concatenar estos dos lenguajes finitos, obtenemos como resultado un lenguaje con tantas palabras como la multiplicación del número de palabras del primer lenguaje por el número de palabras del segundo lenguaje.\n\nSe puede comprobar fácilmente que el lenguaje \\Lambda es el elemento neutro de la concatenación de lenguajes: por todo lenguaje L \n\\Lambda \\cdot L = L \\cdot \\Lambda = L\\ .\n\nEn cambio, el lenguaje vacío \\emptyset concatenado con cualquier otro lenguaje da como resultado el lenguaje vacío: por todo lenguaje L \n\\emptyset\\cdot L = L \\cdot \\emptyset =\\emptyset\\ .\n Esto es porque no se puede construir ninguna palabra escogiendo una del lenguaje vacío y concatenándola con otra.\nTambién se puede demostrar sin demasiada dificultad que la concatenación de lenguajes es una operación asociativa: por todo lenguajes L_1, L_2 y L_3 \nL_1(L_2L_3)=(L_1L_2)L_3\\ ."
+  },
+  {
+    "objectID": "T1/T1-theory.html#exponenciación",
+    "href": "T1/T1-theory.html#exponenciación",
+    "title": "Reglas de re-escritura",
+    "section": "Exponenciación",
+    "text": "Exponenciación\nUna palabra w elevada a un natural n da como resultado concatenar la propia w consigo misma n veces, \nw^n=\\underbrace{ww \\cdots w}_{n}\\ .\n Por ejemplo, w^2=ww, w^1=w, y, por convenio, w^0=\\lambda, que recordemos que es el neutro de la concatenación de palabras.\nFijaos que de este modo se cumple que w^n=w\\cdot w^{n-1} por todo n\\geq 1.\nUn lenguaje L elevado a un natural n da como resultado concatenar el propio L consigo mismo n veces: \nL^n=\\underbrace{L\\cdot L \\cdots L}_{n}\\ .\n\nPor ejemplo, L^2=LL, L^1=L, y por convenio definimos que L^0=\\Lambda que recordemos que es el neutro de la concatenación de lenguajes.\nFijaos que de este modo se cumple que L^n=L\\cdot L^{n-1} para todo n\\geq 1."
+  },
+  {
+    "objectID": "T1/T1-theory.html#estrella-de-kleene",
+    "href": "T1/T1-theory.html#estrella-de-kleene",
+    "title": "Reglas de re-escritura",
+    "section": "Estrella de Kleene",
+    "text": "Estrella de Kleene\nLa estrella de Kleene un lenguaje L da como resultado un nuevo lenguaje L^* que contiene aquellas palabras que se pueden obtener a base de escoger un número finito de palabras de L y concatenarlas. Formalmente, \nL^* = \\bigcup_{n=0}^\\infty L^n\n    = \\{w\\in \\Sigma^* \\mid \\exists n\\in \\mathbb{N} \\exists w_1,w_2,\\dots, w_n\\in L\\ w=w_1w_2\\cdots w_n\\}\\ .\n\nDicho de otro modo, una palabra w es en L^* si y sólo si podemos escoger un cierto número de palabras w_1 hasta w_n de L, concatenarlas y obtener así w.\n\nEjemplo 11 \n\\{a\\}^*=\\{\\lambda, a, aa, aaa, aaaa, \\dots\\}=\\{a^n \\mid n\\in \\mathbb N\\}\\ .\n Escogiendo cero palabras del lenguaje \\{a\\} y concatenándolas obtenemos la palabra vacía \\lambda. Escogiendo una palabra obtenemos a. Escogiendo dos palabras resulta que ambas son a y por tanto obtenemos aa. Y así sucesivamente vemos que el resultado de la operación estrella en este caso es el conjunto de todas las palabras posibles que se pueden formar con a.\n\n\nEjemplo 12 \n\\{ab\\}^*=\\{\\lambda, ab,abab, ababab, \\dots\\}=\\{(ab)^n \\mid n\\in \\mathbb N\\}\\ .\n En este caso, tras aplicar la operación estrella al lenguaje \\{ab\\} obtenemos \\lambda, ab, abab y así sucesivamente.\n\n\nEjemplo 13 Consideramos el lenguaje con la palabra a y con la palabra bb, es decir \\{a,bb\\}. En este caso, tras aplicar la operación estrella obtenemos \\lambda, a, bb, aa, abb, bba, bbbb y así sucesivamente.\n\n\nEjemplo 14 Si aplicamos la estrella al lenguaje de las palabras de longitud par, lo volvemos a obtener a él mismo. Esto es porque si concatenamos varias palabras de longitud par obtenemos nuevamente una palabra de longitud par. Es decir \n\\{w\\in \\Sigma^* \\mid |w|\\in \\dot 2\\}^*=\\{w\\in \\Sigma^* \\mid |w|\\in \\dot 2\\}\\ .\n\n\nLa operación más (+) se define de forma similar a la operación estrella. Ambas operaciones difieren en que el más no obliga necesariamente a incluir la palabra vacía. \nL^+=\\bigcup_{n=1}^\\infty= L^1\\cup L^2\\cup \\cdots\n De hecho, L estrella siempre coincide con la unión de L más y el conjunto con la palabra vacía, \nL^*=L^+\\cup \\Lambda\n y \n\\lambda \\in L^+ \\Leftrightarrow \\lambda \\in L\\ ."
+  },
+  {
+    "objectID": "T1/T1-theory.html#reverso",
+    "href": "T1/T1-theory.html#reverso",
+    "title": "Reglas de re-escritura",
+    "section": "Reverso",
+    "text": "Reverso\nEl reverso de una palabra w da como resultado otra palabra w^R de la misma longitud y cumpliendo que su primer símbolo es el último símbolo de w, su segundo símbolo es el penúltimo símbolo de w y así sucesivamente. Es decir, si w=s_1s_2\\cdots s_{|w|}, entonces w^R=s_{|w|}\\cdots s_2 s_1, donde s_1, s_2, etc denotan los simbolos de la palabra w.\n\nEjemplo 15 El reverso de w=aabab es w^R=(aabab)^R=babaa.\n\nNo es difícil comprobar que el reverso de la concatenación de dos palabras da como resultado el reverso de la segunda palabra concatenado con el reverso de la primera palabra. Es decir \n(uv)^R=v^Ru^R\n por toda palabras u,v.\nEl reverso de un lenguaje L\\subseteq \\Sigma^* es el conjunto de palabras que resultan de aplicar la operación reverso a todas las palabras de L. Es decir, \nL^R=\\{w^R\\in \\Sigma^* \\mid w\\in L\\}=\\{w\\in \\Sigma^* \\mid w^R\\in L\\}\\ .\n\n\nEjemplo 16 El reverso del conjunto de palabras sobre \\{a,b\\} que empiezan por a da como resultado el conjunto de palabras sobre \\{a,b\\} que acaban en a. Es decir \n\\{w\\in \\{a,b\\}^* \\mid \\exists w'\\ w= aw'\\}^R=\\{w\\in \\{a,b\\}^* \\mid \\exists w'\\ w= w'a\\}\\ .\n\n\nNo es difícil comprobar que el reverso de la concatenación de dos lenguajes da como resultado el reverso del segundo lenguaje concatenado con el reverso del primer lenguaje. Es decir \n(L_1L_2)^R=L_2^R L_1^R\n por todo lenguajes L_1 y L_2."
+  },
+  {
+    "objectID": "T1/T1-theory.html#morfismos",
+    "href": "T1/T1-theory.html#morfismos",
+    "title": "Reglas de re-escritura",
+    "section": "Morfismos",
+    "text": "Morfismos\nUn morfismo \\sigma es una función que transforma palabras sobre un alfabeto \\Sigma_1 en palabras sobre otro alfabeto \\Sigma_2 pero es un tipo de función muy particular y sencillo porque adicionalmente cumple que la aplicación del morfismo conmuta con la concatenación de palabras. Es decir que la imagen de la concatenación de dos palabras coincide con la concatenación de las respectivas imágenes. En otras palabras, una función \\sigma \\colon \\Sigma_1^* \\to \\Sigma_2^* es un morfismo si cumple que para cada palabras u y v, \n\\sigma(uv)=\\sigma(u)\\sigma(v)\\ .\n\nDe este modo la imagen con \\sigma de una palabra cualquiera w=a_1a_2\\dots a_n, que describimos de forma genérica como la concatenación de simbulos a_1, a_2, hasta a_n, da como resultado la imagen con \\sigma de a_1 concatenado con la imagen de a_2 y así sucesivamente. Es decir, \n\\sigma(a_1a_2\\dots a_n)=\\sigma(a_1)\\sigma(a_2)\\dots \\sigma(a_n)\\ .\n\nNo resulta difícil comprobar que la imagen de la palabra vacía \\lambda por un morfismo da como resultado la palabra vacía. Es decir, por cualquier morfismo \\sigma\\colon \\Sigma_1^* \\to \\Sigma_2^* \n\\sigma(\\lambda)=\\lambda\\ .\n\nDe hecho para definir un morfismo \\sigma\\colon \\Sigma_1^* \\to \\Sigma_2^* basta con definir solamente la imagen de los símbolos del alfabeto \\Sigma_1 ya que entonces la imagen de cualquier palabra se puede calcular en términos de las imágenes de los símbolos.\n\nEjemplo 17 Para definir un morfismo \\sigma\\colon \\{a,b,c\\}^* \\to \\{0,1\\}^* entre las palabras sobre \\{a,b,c\\} y las palabras sobre \\{0,1\\}^* basta con definir las imágenes de a, b y c. Por ejemplo consideramos \n\\sigma(a)=0,\\quad \\sigma(b)=11,\\quad \\text{i}\\quad  \\sigma(c)=\\lambda\\ .\n Como consecuencia de esta definición y del hecho de que \\sigma es un morfismo podemos ahora calcular la imagen de cualquier palabra sobre \\{a,b,c\\}. Por ejemplo la imagen de accbacb se calcula concatenando las imágenes de sus simbolos. \n\\sigma(accbacb)=\\sigma(a)\\sigma(c)\\sigma(c)\\sigma(b)\\sigma(a)\\sigma(c)\\sigma(b)=0\\lambda \\lambda 11 0 \\lambda 11 = 011011\\ .\n\n\nDado un morfismo \\sigma\\colon \\Sigma_1^* \\to \\Sigma_2^* y un lenguaje L\\subseteq \\Sigma_1^*, el lenguaje imagen de L por \\sigma queda definido de forma natural como el lenguaje de las palabras que son imagen de alguna palabra de L. Es decir \n\\sigma(L)=\\{\\sigma(w)\\in \\Sigma_2^* \\mid w\\in L\\}\\ .\n\nSimilarmente para un lenguaje L\\subseteq \\Sigma_2^*, el lenguaje anti-imagen de L queda definido como el conjunto de palabras cuya imagen está en L. Esa decir \n\\sigma^{-1}(L)=\\{w\\in \\Sigma_1^* \\mid \\sigma(w)\\in L\\}\\ .\n\nNo es difícil comprobar que la aplicación de un morfismo sobre lenguajes conmuta con la concatenación de lenguajes. Es decir \n\\sigma(L_1L_2)=\\sigma(L_1)\\sigma(L_2)\n por cualquier morfismo \\sigma\\colon \\Sigma_1^* \\to \\Sigma_2^* y lenguajes L_1,L_2\\subseteq \\Sigma_1^*.\nUna regla de re-escritura (o de re-emplazo) es un par ordenado de palabras u, v que denotamos como \nu\\to v\\ .\n Decimos que esta es la regla que nos permite transformar u en v.\n\nEjemplo 18 La regla de re-escritura ab\\to bba es la regla que nos permite transformar ab en bba.\n\nLa aplicación de una regla de reescritura u\\to v sobre una palabra w consiste en encontrar una ocurrencia de u en w y re-emplazarla por v. Lo denotamos de este modo: \nw_1\\underline{u}w_2 \\to_{u\\to v} w_1\\underline{v}w_2\n resaltando así qué regla se está usando y en que parte de las palabras.\n\nEjemplo 19 La aplicación de la regla ab\\to bba es posible sobre la palabra aabab en dos posiciones distintas porqué aabab contiene dos ocurrencias de ab. Por ejemplo, podemos denotar la aplicación de la regla ab\\to bba en la primera ocurrencia de ab de esta manera \na\\underline{ab}ab\\to_{ab\\to bba} a\\underline{bba}ab\\ .\n\n\nSea R es un conjunto de reglas de re-escritura.\nCon w\\to_R w' denotamos que la palabra w se transforma en w' aplicando una de las reglas de R.\nCon w\\to_R^* w' denotamos que la palabra w se transforma en la palabra w' aplicando cero o más pasos de re-emplazo con reglas de R.\nCon w\\to_R^+ w' denotamos que la palabra w se transforma en la palabra w' aplicando uno o más pasos de re-emplazo con reglas de R.\nFinalmente, con w\\to_R^i w' denotamos que la palabra w se transforma en la palabra w' aplicando i pasos de re-emplazo con reglas de R."
+  },
+  {
+    "objectID": "T1/operations.html",
+    "href": "T1/operations.html",
+    "title": "Operaciones sobre lenguajes",
+    "section": "",
+    "text": "Sobre lenguajes L_1,L_2\\subseteq \\Sigma^* podemos claramente hacer todas las operaciones que podemos hacer entre conjuntos genericos, por ejemplo L_1\\cap L_2, or L_1\\cup L_2, o tomar el complemento de L_1, es decir \\overline{L_1}=\\Sigma^*\\setminus L_1.",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Operaciones sobre lenguajes"
+    ]
+  },
+  {
+    "objectID": "T1/operations.html#concatenación",
+    "href": "T1/operations.html#concatenación",
+    "title": "Operaciones sobre lenguajes",
+    "section": "Concatenación",
+    "text": "Concatenación\nMediante el símbolo lambda mayúscula \\Lambda, denotamos el lenguaje que contiene únicamente a la palabra vacía \\lambda. Es decir \n\\Lambda =\\{\\lambda\\}\\ .\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nFijaos que el lenguaje \\Lambda no es el lenguaje vacío (o conjunto vacío) \\emptyset, simplemente porqué \\Lambda tiene un elemento que es la palabra vacía \\lambda.\n\n\nDefinimos ahora la concatenación de dos lenguajes, que denotaremos de forma análoga a la concatenación de dos palabras.\nLa concatenación de un lenguaje L_1\\subseteq \\Sigma^* con un lenguaje L_2\\subseteq \\Sigma^* da como resultado un nuevo lenguaje L_1\\cdot L_2\\subseteq \\Sigma^* que contiene aquellas palabras que se pueden obtener concatenando una palabra cualquiera de L_1 con una palabra cualquiera de L_2. Es decir, \nL_1\\cdot L_2 =\\{w_1w_2 \\mid w_1\\in L_1 \\land w_2\\in L_2\\}\\ .\n\n\nEjemplo 1 \n\\{a,bb\\}\\cdot\\{b,ba\\}=\\{ab,aba,bbb,bbba\\}\\ .\n Al concatenar estos dos lenguajes finitos, obtenemos como resultado un lenguaje con tantas palabras como la multiplicación del número de palabras del primer lenguaje por el número de palabras del segundo lenguaje.\n\nSe puede comprobar fácilmente que el lenguaje \\Lambda es el elemento neutro de la concatenación de lenguajes: por todo lenguaje L \n\\Lambda \\cdot L = L \\cdot \\Lambda = L\\ .\n\nEn cambio, el lenguaje vacío \\emptyset concatenado con cualquier otro lenguaje da como resultado el lenguaje vacío: por todo lenguaje L \n\\emptyset\\cdot L = L \\cdot \\emptyset =\\emptyset\\ .\n Esto es porque no se puede construir ninguna palabra escogiendo una del lenguaje vacío y concatenándola con otra.\nTambién se puede demostrar sin demasiada dificultad que la concatenación de lenguajes es una operación asociativa: por todo lenguajes L_1, L_2 y L_3 \nL_1(L_2L_3)=(L_1L_2)L_3\\ .",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Operaciones sobre lenguajes"
+    ]
+  },
+  {
+    "objectID": "T1/operations.html#exponenciación",
+    "href": "T1/operations.html#exponenciación",
+    "title": "Operaciones sobre lenguajes",
+    "section": "Exponenciación",
+    "text": "Exponenciación\nUna palabra w elevada a un natural n da como resultado concatenar la propia w consigo misma n veces, \nw^n=\\underbrace{ww \\cdots w}_{n}\\ .\n Por ejemplo, w^2=ww, w^1=w, y, por convenio, w^0=\\lambda, que recordemos que es el neutro de la concatenación de palabras.\nFijaos que de este modo se cumple que w^n=w\\cdot w^{n-1} por todo n\\geq 1.\nUn lenguaje L elevado a un natural n da como resultado concatenar el propio L consigo mismo n veces: \nL^n=\\underbrace{L\\cdot L \\cdots L}_{n}\\ .\n\nPor ejemplo, L^2=LL, L^1=L, y por convenio definimos que L^0=\\Lambda que recordemos que es el neutro de la concatenación de lenguajes.\nFijaos que de este modo se cumple que L^n=L\\cdot L^{n-1} para todo n\\geq 1.",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Operaciones sobre lenguajes"
+    ]
+  },
+  {
+    "objectID": "T1/operations.html#estrella-de-kleene",
+    "href": "T1/operations.html#estrella-de-kleene",
+    "title": "Operaciones sobre lenguajes",
+    "section": "Estrella de Kleene",
+    "text": "Estrella de Kleene\nLa estrella de Kleene un lenguaje L da como resultado un nuevo lenguaje L^* que contiene aquellas palabras que se pueden obtener a base de escoger un número finito de palabras de L y concatenarlas. Formalmente, \nL^* = \\bigcup_{n=0}^\\infty L^n\n    = \\{w\\in \\Sigma^* \\mid \\exists n\\in \\mathbb{N} \\exists w_1,w_2,\\dots, w_n\\in L\\ w=w_1w_2\\cdots w_n\\}\\ .\n\nDicho de otro modo, una palabra w es en L^* si y sólo si podemos escoger un cierto número de palabras w_1 hasta w_n de L, concatenarlas y obtener así w.\n\nEjemplo 2 \n\\{a\\}^*=\\{\\lambda, a, aa, aaa, aaaa, \\dots\\}=\\{a^n \\mid n\\in \\mathbb N\\}\\ .\n Escogiendo cero palabras del lenguaje \\{a\\} y concatenándolas obtenemos la palabra vacía \\lambda. Escogiendo una palabra obtenemos a. Escogiendo dos palabras resulta que ambas son a y por tanto obtenemos aa. Y así sucesivamente vemos que el resultado de la operación estrella en este caso es el conjunto de todas las palabras posibles que se pueden formar con a.\n\n\nEjemplo 3 \n\\{ab\\}^*=\\{\\lambda, ab,abab, ababab, \\dots\\}=\\{(ab)^n \\mid n\\in \\mathbb N\\}\\ .\n En este caso, tras aplicar la operación estrella al lenguaje \\{ab\\} obtenemos \\lambda, ab, abab y así sucesivamente.\n\n\nEjemplo 4 Consideramos el lenguaje con la palabra a y con la palabra bb, es decir \\{a,bb\\}. En este caso, tras aplicar la operación estrella obtenemos \\lambda, a, bb, aa, abb, bba, bbbb y así sucesivamente.\n\n\nEjemplo 5 Si aplicamos la estrella al lenguaje de las palabras de longitud par, lo volvemos a obtener a él mismo. Esto es porque si concatenamos varias palabras de longitud par obtenemos nuevamente una palabra de longitud par. Es decir \n\\{w\\in \\Sigma^* \\mid |w|\\in \\dot 2\\}^*=\\{w\\in \\Sigma^* \\mid |w|\\in \\dot 2\\}\\ .\n\n\nLa operación más (+) se define de forma similar a la operación estrella. Ambas operaciones difieren en que el más no obliga necesariamente a incluir la palabra vacía. \nL^+=\\bigcup_{n=1}^\\infty= L^1\\cup L^2\\cup \\cdots\n De hecho, L estrella siempre coincide con la unión de L más y el conjunto con la palabra vacía, \nL^*=L^+\\cup \\Lambda\n y \n\\lambda \\in L^+ \\Leftrightarrow \\lambda \\in L\\ .",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Operaciones sobre lenguajes"
+    ]
+  },
+  {
+    "objectID": "T1/operations.html#reverso",
+    "href": "T1/operations.html#reverso",
+    "title": "Operaciones sobre lenguajes",
+    "section": "Reverso",
+    "text": "Reverso\nEl reverso de una palabra w da como resultado otra palabra w^R de la misma longitud y cumpliendo que su primer símbolo es el último símbolo de w, su segundo símbolo es el penúltimo símbolo de w y así sucesivamente. Es decir, si w=s_1s_2\\cdots s_{|w|}, entonces w^R=s_{|w|}\\cdots s_2 s_1, donde s_1, s_2, etc denotan los simbolos de la palabra w.\n\nEjemplo 6 El reverso de w=aabab es w^R=(aabab)^R=babaa.\n\nNo es difícil comprobar que el reverso de la concatenación de dos palabras da como resultado el reverso de la segunda palabra concatenado con el reverso de la primera palabra. Es decir \n(uv)^R=v^Ru^R\n por toda palabras u,v.\nEl reverso de un lenguaje L\\subseteq \\Sigma^* es el conjunto de palabras que resultan de aplicar la operación reverso a todas las palabras de L. Es decir, \nL^R=\\{w^R\\in \\Sigma^* \\mid w\\in L\\}=\\{w\\in \\Sigma^* \\mid w^R\\in L\\}\\ .\n\n\nEjemplo 7 El reverso del conjunto de palabras sobre \\{a,b\\} que empiezan por a da como resultado el conjunto de palabras sobre \\{a,b\\} que acaban en a. Es decir \n\\{w\\in \\{a,b\\}^* \\mid \\exists w'\\ w= aw'\\}^R=\\{w\\in \\{a,b\\}^* \\mid \\exists w'\\ w= w'a\\}\\ .\n\n\nNo es difícil comprobar que el reverso de la concatenación de dos lenguajes da como resultado el reverso del segundo lenguaje concatenado con el reverso del primer lenguaje. Es decir \n(L_1L_2)^R=L_2^R L_1^R\n por todo lenguajes L_1 y L_2.",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Operaciones sobre lenguajes"
+    ]
+  },
+  {
+    "objectID": "T1/operations.html#morfismos",
+    "href": "T1/operations.html#morfismos",
+    "title": "Operaciones sobre lenguajes",
+    "section": "Morfismos",
+    "text": "Morfismos\nUn morfismo \\sigma es una función que transforma palabras sobre un alfabeto \\Sigma_1 en palabras sobre otro alfabeto \\Sigma_2 pero es un tipo de función muy particular y sencillo porque adicionalmente cumple que la aplicación del morfismo conmuta con la concatenación de palabras. Es decir que la imagen de la concatenación de dos palabras coincide con la concatenación de las respectivas imágenes. En otras palabras, una función \\sigma \\colon \\Sigma_1^* \\to \\Sigma_2^* es un morfismo si cumple que para cada palabras u y v, \n\\sigma(uv)=\\sigma(u)\\sigma(v)\\ .\n\nDe este modo la imagen con \\sigma de una palabra cualquiera w=a_1a_2\\dots a_n, que describimos de forma genérica como la concatenación de simbulos a_1, a_2, hasta a_n, da como resultado la imagen con \\sigma de a_1 concatenado con la imagen de a_2 y así sucesivamente. Es decir, \n\\sigma(a_1a_2\\dots a_n)=\\sigma(a_1)\\sigma(a_2)\\dots \\sigma(a_n)\\ .\n\nNo resulta difícil comprobar que la imagen de la palabra vacía \\lambda por un morfismo da como resultado la palabra vacía. Es decir, por cualquier morfismo \\sigma\\colon \\Sigma_1^* \\to \\Sigma_2^* \n\\sigma(\\lambda)=\\lambda\\ .\n\nDe hecho para definir un morfismo \\sigma\\colon \\Sigma_1^* \\to \\Sigma_2^* basta con definir solamente la imagen de los símbolos del alfabeto \\Sigma_1 ya que entonces la imagen de cualquier palabra se puede calcular en términos de las imágenes de los símbolos.\n\nEjemplo 8 Para definir un morfismo \\sigma\\colon \\{a,b,c\\}^* \\to \\{0,1\\}^* entre las palabras sobre \\{a,b,c\\} y las palabras sobre \\{0,1\\}^* basta con definir las imágenes de a, b y c. Por ejemplo consideramos \n\\sigma(a)=0,\\quad \\sigma(b)=11,\\quad \\text{i}\\quad  \\sigma(c)=\\lambda\\ .\n Como consecuencia de esta definición y del hecho de que \\sigma es un morfismo podemos ahora calcular la imagen de cualquier palabra sobre \\{a,b,c\\}. Por ejemplo la imagen de accbacb se calcula concatenando las imágenes de sus simbolos. \n\\sigma(accbacb)=\\sigma(a)\\sigma(c)\\sigma(c)\\sigma(b)\\sigma(a)\\sigma(c)\\sigma(b)=0\\lambda \\lambda 11 0 \\lambda 11 = 011011\\ .\n\n\nDado un morfismo \\sigma\\colon \\Sigma_1^* \\to \\Sigma_2^* y un lenguaje L\\subseteq \\Sigma_1^*, el lenguaje imagen de L por \\sigma queda definido de forma natural como el lenguaje de las palabras que son imagen de alguna palabra de L. Es decir \n\\sigma(L)=\\{\\sigma(w)\\in \\Sigma_2^* \\mid w\\in L\\}\\ .\n\nSimilarmente para un lenguaje L\\subseteq \\Sigma_2^*, el lenguaje anti-imagen de L queda definido como el conjunto de palabras cuya imagen está en L. Esa decir \n\\sigma^{-1}(L)=\\{w\\in \\Sigma_1^* \\mid \\sigma(w)\\in L\\}\\ .\n\nNo es difícil comprobar que la aplicación de un morfismo sobre lenguajes conmuta con la concatenación de lenguajes. Es decir \n\\sigma(L_1L_2)=\\sigma(L_1)\\sigma(L_2)\n por cualquier morfismo \\sigma\\colon \\Sigma_1^* \\to \\Sigma_2^* y lenguajes L_1,L_2\\subseteq \\Sigma_1^*.",
+    "crumbs": [
+      "Info curso",
+      "**1** - Teoría de lenguajes",
+      "Operaciones sobre lenguajes"
+    ]
+  },
+  {
+    "objectID": "T8/T8-self-study.html",
+    "href": "T8/T8-self-study.html",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Computabilitat i indecidibilitat\n\nMaria Serna, Carme Àlvarez, Rafel Cases, Antoni Lozano\nCapítol 5\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 5.2 A Simple Undecidable Problem\nSection 6.2 Decidability of Logical Theories",
+    "crumbs": [
+      "Info curso",
+      "**8** - Problemas naturales indecidibles",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T8/T8-self-study.html#llibres",
+    "href": "T8/T8-self-study.html#llibres",
+    "title": "Auto-aprendizaje",
+    "section": "",
+    "text": "Teoria de la computació – Computabilitat i indecidibilitat\n\nMaria Serna, Carme Àlvarez, Rafel Cases, Antoni Lozano\nCapítol 5\n\n\n\n\n\n\n\n\n\nIntroduction to the Theory of Computation\n\nMichael Sipser\nCENGAGE Learning, 2013\nSipser’s MIT Video Lectures\nSection 5.2 A Simple Undecidable Problem\nSection 6.2 Decidability of Logical Theories",
+    "crumbs": [
+      "Info curso",
+      "**8** - Problemas naturales indecidibles",
+      "Auto-aprendizaje"
+    ]
+  },
+  {
+    "objectID": "T8/T8-self-study.html#videos",
+    "href": "T8/T8-self-study.html#videos",
+    "title": "Auto-aprendizaje",
+    "section": "Videos",
+    "text": "Videos\nMirar los siguentes videos.",
+    "crumbs": [
+      "Info curso",
+      "**8** - Problemas naturales indecidibles",
+      "Auto-aprendizaje"
+    ]
+  }
+]
