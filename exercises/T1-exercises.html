@@ -334,7 +334,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../exercises/T5_1-exercises.qmd" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-star" role="img">
+  <a href="../exercises/T5.1-exercises.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-star" role="img">
 </i> 
  <span class="menu-text">Ejercicios para la evaluación continua</span></a>
   </div>
@@ -359,7 +359,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../exercises/T5.2-exercises.qmd" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-star" role="img">
+  <a href="../exercises/T5.2-exercises.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-star" role="img">
 </i> 
  <span class="menu-text">Ejercicios para la evaluación continua</span></a>
   </div>
@@ -518,7 +518,17 @@ window.Quarto = {
 <div id="exr-" class="theorem exercise">
 <p><span class="theorem-title"><strong>Ejercicio 1</strong></span> <span class="easy"><i class="fa-solid fa-leaf" aria-label="leaf"></i></span> Formalitzeu els següents llenguatges utilitzant la notació clàssica de conjunts, com a parell variable de mot (<span class="math inline">w\in \Sigma^*</span>) i propietat (<span class="math inline">P</span>) definida sobre mots, de manera que el llenguatge es pot definir com el conjunt <span class="math inline">\{w \in \Sigma^* \mid P(w)\}</span>. Per a definir formalment la propietat <span class="math inline">P</span> feu servir quantificadors universals i existencials (<span class="math inline">\forall</span>,<span class="math inline">\exists</span>), operadors booleans (<span class="math inline">\lor</span>, <span class="math inline">\land</span>, <span class="math inline">\implies</span>, …) i les notacions sobre mides de mots que hem introduït.</p>
 <ol type="a">
-<li><p>Llenguatge dels mots sobre <span class="math inline">\{a,b\}</span> que contenen el submot <span class="math inline">ab</span>.</p></li>
+<li><p>Llenguatge dels mots sobre <span class="math inline">\{a,b\}</span> que contenen el submot <span class="math inline">ab</span>.</p>
+<details>
+<summary>
+<p>Una posible solución</p>
+</summary>
+<p>
+</p><p><span class="math display">
+\{w\in \{a,b\}^* \mid \exists x,y\in \{a,b\}^*\ w=xaby\}
+</span></p>
+<p></p>
+</details></li>
 <li><p>Llenguatge dels mots sobre <span class="math inline">\{a,b\}</span> tals que a la dreta de cada submot <span class="math inline">ab</span> hi ha algun submot <span class="math inline">ba</span>.</p></li>
 <li><p>Llenguatge dels mots sobre <span class="math inline">\{a,b\}</span> que contenen el submot <span class="math inline">ab</span> i el submot <span class="math inline">ba</span>.</p></li>
 <li><p><span class="def"><i class="fa-solid fa-user-edit" aria-label="user-edit"></i></span> Llenguatge dels mots sobre <span class="math inline">\{a,b,c\}</span> tals que entre cada dues <span class="math inline">b</span>’s hi ha alguna <span class="math inline">a</span>.</p></li>
